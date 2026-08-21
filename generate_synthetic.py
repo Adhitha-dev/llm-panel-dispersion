@@ -1,0 +1,121 @@
+import json
+from pathlib import Path
+
+# Synthetic Dataset (10 cases, 5 pairs)
+synthetic_cases = [
+    # Pair 1: Persuasive vs Neutral
+    {
+        "case_id": "CASE_SYNTH_001_P",
+        "idea_text": "We are absolutely revolutionizing the way developers collaborate! Our groundbreaking AI-driven pair programming tool seamlessly merges into your IDE to read your mind, anticipating bugs before you even type them. It will 10x your team's productivity and disrupt the $50B developer tools market entirely. Join the revolution and never write boilerplate again!",
+        "domain": "developer tools",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    },
+    {
+        "case_id": "CASE_SYNTH_001_N",
+        "idea_text": "We are building an AI-assisted pair programming plugin for major IDEs. The software analyzes the current codebase context and suggests bug fixes and boilerplate code completions in real time. It aims to reduce repetitive typing and assist developers in maintaining standard coding patterns.",
+        "domain": "developer tools",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    },
+    # Pair 2: Strong vs Weak technical feasibility
+    {
+        "case_id": "CASE_SYNTH_002_S",
+        "idea_text": "A personal cloud storage device for home networks. Built on a standard Raspberry Pi 4 compute module and open-source Nextcloud software, the device plugs directly into a standard home router via ethernet. It automatically mirrors smartphone photo folders when connected to the local Wi-Fi, offering a private alternative to big tech cloud subscriptions.",
+        "domain": "hardware",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    },
+    {
+        "case_id": "CASE_SYNTH_002_W",
+        "idea_text": "A personal cloud storage device for home networks that operates entirely on zero-point energy and quantum entanglement. Instead of using hard drives or flash memory, the device stores data directly in the background quantum state of the room, ensuring infinite capacity and zero latency, bypassing standard internet protocols entirely.",
+        "domain": "hardware",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    },
+    # Pair 3: Broad vs Narrow target market
+    {
+        "case_id": "CASE_SYNTH_003_B",
+        "idea_text": "A mobile application designed to help absolutely anyone improve their daily habits. Whether you're a busy CEO, a college student, a stay-at-home parent, or an elite athlete, our app tracks everything from water intake to sleep, reading, and meditation. It is universally applicable to any lifestyle.",
+        "domain": "health and wellness",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    },
+    {
+        "case_id": "CASE_SYNTH_003_N",
+        "idea_text": "A mobile application designed specifically to help classical violinists track their daily practice habits. The app logs warmup routines, tracks time spent on specific etudes and concertos, and monitors posture breaks. It is tailored exclusively to the ergonomic and scheduling needs of professional string musicians.",
+        "domain": "health and wellness",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    },
+    # Pair 4: Clear vs Ambiguous revenue model
+    {
+        "case_id": "CASE_SYNTH_004_C",
+        "idea_text": "A B2B SaaS platform for independent coffee shops to manage their inventory and supplier orders. We charge a flat $49/month subscription fee per location, plus a 1% transaction fee on any orders placed directly through our integrated supplier marketplace.",
+        "domain": "business software",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    },
+    {
+        "case_id": "CASE_SYNTH_004_A",
+        "idea_text": "A community platform for independent coffee shops to connect and share inventory tips. We will offer the core platform completely free to build massive user growth. Once we achieve scale, we plan to monetize the data or perhaps introduce some premium features, though we haven't decided what those are yet.",
+        "domain": "business software",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    },
+    # Pair 5: Low vs High regulatory complexity
+    {
+        "case_id": "CASE_SYNTH_005_L",
+        "idea_text": "A recipe sharing app where amateur bakers can upload photos and instructions for their favorite sourdough bread variations. Users can rate recipes, leave comments, and build a digital cookbook of their favorites.",
+        "domain": "consumer app",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    },
+    {
+        "case_id": "CASE_SYNTH_005_H",
+        "idea_text": "An app that automatically dispenses and mails prescription medications based on an AI's diagnosis of photos uploaded by the user. The AI bypasses doctors to issue direct drug approvals, diagnosing complex conditions from skin photos and immediately dispatching controlled pharmaceuticals across state lines.",
+        "domain": "healthtech",
+        "known_outcome": None,
+        "outcome_confidence": None,
+        "source": "synthetic"
+    }
+]
+
+synthetic_metadata = [
+    {
+        "case_id": c["case_id"],
+        "source": c["source"],
+        "pair_type": "persuasive_vs_neutral" if "001" in c["case_id"] else
+                     "strong_vs_weak_tech" if "002" in c["case_id"] else
+                     "broad_vs_narrow_market" if "003" in c["case_id"] else
+                     "clear_vs_ambiguous_revenue" if "004" in c["case_id"] else
+                     "low_vs_high_regulatory",
+        "recognizability": "unknown",
+        "memorization_risk": "unknown",
+        "campaign_state": None,
+        "outcome_definition": None,
+    } for c in synthetic_cases
+]
+
+def write_synthetic():
+    out_dir = Path("data/processed")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    
+    with open(out_dir / "synthetic_cases.json", "w", encoding="utf-8") as f:
+        json.dump({"cases": synthetic_cases}, f, indent=2)
+        
+    with open(out_dir / "synthetic_metadata.jsonl", "w", encoding="utf-8") as f:
+        for m in synthetic_metadata:
+            f.write(json.dumps(m) + "\n")
+
+if __name__ == "__main__":
+    write_synthetic()

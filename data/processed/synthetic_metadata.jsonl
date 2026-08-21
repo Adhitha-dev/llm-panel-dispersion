@@ -1,0 +1,10 @@
+{"case_id": "CASE_SYNTH_001_P", "source": "synthetic", "pair_type": "persuasive_vs_neutral", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}
+{"case_id": "CASE_SYNTH_001_N", "source": "synthetic", "pair_type": "persuasive_vs_neutral", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}
+{"case_id": "CASE_SYNTH_002_S", "source": "synthetic", "pair_type": "strong_vs_weak_tech", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}
+{"case_id": "CASE_SYNTH_002_W", "source": "synthetic", "pair_type": "strong_vs_weak_tech", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}
+{"case_id": "CASE_SYNTH_003_B", "source": "synthetic", "pair_type": "broad_vs_narrow_market", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}
+{"case_id": "CASE_SYNTH_003_N", "source": "synthetic", "pair_type": "broad_vs_narrow_market", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}
+{"case_id": "CASE_SYNTH_004_C", "source": "synthetic", "pair_type": "clear_vs_ambiguous_revenue", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}
+{"case_id": "CASE_SYNTH_004_A", "source": "synthetic", "pair_type": "clear_vs_ambiguous_revenue", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}
+{"case_id": "CASE_SYNTH_005_L", "source": "synthetic", "pair_type": "low_vs_high_regulatory", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}
+{"case_id": "CASE_SYNTH_005_H", "source": "synthetic", "pair_type": "low_vs_high_regulatory", "recognizability": "unknown", "memorization_risk": "unknown", "campaign_state": null, "outcome_definition": null}

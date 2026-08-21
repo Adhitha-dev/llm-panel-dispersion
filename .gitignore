@@ -1,0 +1,23 @@
+# Datasets and large raw files
+data/raw/
+
+# Experiment results, logs, and generated tables/figures
+experiments/
+
+# Model weights
+models/
+.cache/
+.huggingface/
+
+# Environment and secrets
+.env
+.venv/
+venv/
+env/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
