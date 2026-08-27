@@ -166,8 +166,6 @@ def run_c2(
     RunLogger.jsonl_to_csv(exp_dir / "parsed" / "valid_responses.jsonl", exp_dir / "tables" / "results.csv")
     print(f"C2 run completed. Results saved to {exp_dir}")
 
-if __name__ == "__main__":
-    app()
 
 from src.metrics.calculator import compute_c1_metrics, compute_c2_metrics, generate_four_pattern_grid
 from src.reporting.plots import plot_c1_score_distribution, plot_correlation_heatmap, plot_verdict_entropy, plot_c1_vs_c2_variability, plot_pairwise_agreement_heatmap
@@ -232,3 +230,5 @@ def make_figures(
     plot_c1_vs_c2_variability(df_grid, out_path)
     
     print(f"Figures generated in {output_dir}")
+if __name__ == "__main__":
+    app()

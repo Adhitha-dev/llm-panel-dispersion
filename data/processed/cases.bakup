@@ -1,0 +1,404 @@
+{
+  "cases": [
+    {
+      "case_id": "CASE_KS_001",
+      "idea_text": "Refresh Rochester Fall 2010 (Software)\n\nThis project is focused on raising funding to hold our next event. If you were at the first one, you'll remember how delicious the free beer, soda and",
+      "domain": "software",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_002",
+      "idea_text": "BOMB Summer Intensive and Beyond (Product Design)\n\nBOMB(Beyond Organizing Movement Building) Summer Institute is a program for CUNY students to develop the skills necessary to create change at CUNY.",
+      "domain": "product design",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_003",
+      "idea_text": "Fusion in a Bubblegum Machine (Hardware)\n\nYou may be thinking: \"\"\"\"a fusion reactor? That\u2019s not very exciting, I see fusion every day.\"\"\"\" But. How often do you see fusion inside of a Bubblegum...",
+      "domain": "hardware",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_004",
+      "idea_text": "IVIOU The future of buying and selling online (Apps)\n\nPlay it, view it, buy it when \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"Ebay meets Youtube\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_005",
+      "idea_text": "A new web video concept: telegraph21. (Software)\n\ntelegraph21 is a curated video space with a focus on non-fiction storytelling and art from around the world. We help filmmakers to promote their work.",
+      "domain": "software",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_006",
+      "idea_text": "Like Clockwork Solid Wood and Glass Electronic Word Clock (Product Design)\n\nLike Clockwork word clocks are handmade timepieces made of solid wood and glass. Each is custom made and measures 17\"\"\"\" x 17\"\"\"\" or 6\"\"\"\" x 6\"\"\"\".",
+      "domain": "product design",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_007",
+      "idea_text": "Fitness App that does it all. Kilojoules (Apps)\n\nFitness app that simplifies \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"counting calories\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" into a science.",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_008",
+      "idea_text": "ValetSmartz- \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"The Anywhere Valet\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" (Apps)\n\nMobile Personal Service app for NYC- An \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"Anywhere Valet\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_009",
+      "idea_text": "cut DUI death with \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"One Way Designated Drivers On Demand\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" (Apps)\n\nWe are trying to developing an app like Uber but incorporate driver \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"return\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" technology. Scooter, BART, bus, volunteer , employee",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_010",
+      "idea_text": "Fixers Collective (Software)\n\nFixers\u2019 Collective is a social experiment in improvisational fixing and mending. The Collective meets every Thursday from 6 \u2013 9pm at Proteus Gowanus.",
+      "domain": "software",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_011",
+      "idea_text": "Web Designer T-shirts (nan)\n\nDesigning is my hobby... Coding is my \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"LIFE\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"...",
+      "domain": "nan",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_012",
+      "idea_text": "A Hackerspace Grows in Brooklyn. (Software)\n\nNYC Resistor is a creative technology space in Brooklyn where we learn, share, and make things. We're moving to a great new location wtih 3x the space",
+      "domain": "software",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_013",
+      "idea_text": "Power Laces (nan)\n\nPower Laces- a cool piece of \"\"\"\"Future Tech\"\"\"\" that every kid of the 80s wanted, and can also improve the life of those with with motor disabilities.",
+      "domain": "nan",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_014",
+      "idea_text": "TattooTree (Apps)\n\nA TattooTree is \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"planted\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" and \u201cfed\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" until the \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"fruit\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" is ready to be \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"picked\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\".",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_015",
+      "idea_text": "CLEX - \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"4 in 1\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" Smart Device (Gadgets)\n\nIt's more than a PC. It's World's First \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"4 in 1\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" Smart device with \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"PC + Jump Starter + Power Bank + Flash Light\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\".",
+      "domain": "gadgets",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_016",
+      "idea_text": "Noon Design Studio: The only natural dye production house in the US (nan)\n\nNoon Design turns the beauty of nature into naturally dyed fabrics for designers and artists by using new technology. Think pomegranate and walnuts.",
+      "domain": "nan",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_017",
+      "idea_text": "JP1971 MxNM: iPad Audio_MIDI (Software)\n\nThe Apple iPad is a platform capable of innovative forms of musical expression. JP1971's Mix and Match MIDI Pad (MxNM) will take advantage of that.",
+      "domain": "software",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_018",
+      "idea_text": "Understand Your Schizophrenic (Apps)\n\nI want to build a free iPhone application that records the \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"word salad\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" of a schizophrenic person and shows it on a graph.",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_019",
+      "idea_text": "McCallum High School \"\"\"\"Bubbles\"\"\"\" (Product Design)\n\nThe McCallum High School Bubbles are a series of interactive outdoor seating structures designed and built by students. The bubbles light up at night.",
+      "domain": "product design",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_020",
+      "idea_text": "Pinz (Apps)\n\n\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"Hey Pinzer, like to dance?\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"; \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"I have a flat tire, any Pinzer in the area?\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" .. location based communication .. no contact list required",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_021",
+      "idea_text": "velosynth (Hardware)\n\nvelosynth is an open-source bicycle interaction synthesizer. it interprets the speed and acceleration of a bicycle into expressive audio feedback.",
+      "domain": "hardware",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_022",
+      "idea_text": "Solid and simple outdoor axe. (Product Design)\n\nA solid and simple wood-chopping hatchet that pursues the \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"beauty of use\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+      "domain": "product design",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_023",
+      "idea_text": "The Thinket Now (Product Design)\n\nA Fidget & Stress-Reliever for your life's adventure. It delivers a \"\"\"\"satisfying-bounce\"\"\"\" and \"\"\"\"reassuring-thud\"\"\"\" and it's made in the USA!",
+      "domain": "product design",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_024",
+      "idea_text": "Live View! Social Media Live TV & Radio Application. (Apps)\n\nThe product is \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"The Social Media Live TV & Radio App!\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" Bringing a television and radio forum to the masses!",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_025",
+      "idea_text": "My Space, please !! (Gadgets)\n\n\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"The car behind mine isn't keeping a safe distance. If I need to slam on the brakes, it'll rear-end me!\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+      "domain": "gadgets",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_026",
+      "idea_text": "@party: Keep the demoscene spirit alive in North America! (Software)\n\n@party is a computer art event. We are raising funds for our 2011 site reservation, 501(c)(3) registration, with $90 more to cover Kickstarter's 5%.",
+      "domain": "software",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_027",
+      "idea_text": "Convex Trowel a new universal concrete hand tool (Hardware)\n\nInternet search \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"convex trowel\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" 2 videos,to get it produced/sold to a manufacturer.utility patent #7,543,349. Raccoooon2@hotmail.com",
+      "domain": "hardware",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_028",
+      "idea_text": "App to end a Million Dollar Windshield Fraud Scheme in USA (Apps)\n\n\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"GlassiCam\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\", Google Glass App to End a Multi Million Dollar Windshield Fraud Scheme in USA",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_029",
+      "idea_text": "Incredible MMMulti-length straw: 6=9=12=14\"\"\"\" (Product Design)\n\nDo you need a 6\"\"\"\" straw? or an 9\"\"\"\" straw? or a 12\"\"\"\" straw, or a 14\"\"\"\" straw?, With \"\"\"\"MMMulti-length straw\"\"\"\" you will use the SAME straw!",
+      "domain": "product design",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_030",
+      "idea_text": "APP to incentivise people to market properties in China (Apps)\n\nAn App for Real Estate Agents to incentivise followers to engage with mandarin-speakers globally. See product video under \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"description\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_031",
+      "idea_text": "Reminisc (Apps)\n\nRediscover your old photos. Type \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"that time I ate dinner with ___\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\".",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_032",
+      "idea_text": "HappyU (Apps)\n\nAre you in the \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"Place to be\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"! Measure the happiness of your environment, and assess your own! and be a part of HappyU...",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_033",
+      "idea_text": "2011 Typographic Wall Calendar (Product Design)\n\nGet a large (70x100cm) typographic wall calendar for the year 2011 made of two thousand eleven keyboard keys. Backers of $35 or more will get a print.",
+      "domain": "product design",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_034",
+      "idea_text": "My Doppleganger (Apps)\n\nEver wanted to find out who in the world looks like you? With My Doppelganger App, you have a world of possibilities for your \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"twin.\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_035",
+      "idea_text": "Better Starts for $600!! (nan)\n\nHere's your chance to pre-order \"\"\"\"The Gate\"\"\"\" and \"\"\"\"The Light\"\"\"\"-a drop-in gate (you build the ramp) with random start system for only $600!",
+      "domain": "nan",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_036",
+      "idea_text": "Hand to Mouth Budget App (Software)\n\nNo budget software has ever been tailored for those living \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"hand to mouth\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" and that needs to change. With your help, it will change!",
+      "domain": "software",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_037",
+      "idea_text": "Subtitles in Miro - Translations and Support for the Hearing Impaired (Software)\n\nMiro is a free, non-profit, and open-source video player used by millions of people. Help us connect video makers to the world with subtitle support.",
+      "domain": "software",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_038",
+      "idea_text": "staxxiomTM | No tools, no hassle furniture. (Product Design)\n\nInnovative \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"click-to-assemble\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" modern furniture. No tools needed. 2 minutes to assemble.",
+      "domain": "product design",
+      "known_outcome": "successful",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_039",
+      "idea_text": "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"NewBee\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" Making the collge experience better than ever! (Apps)\n\n\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"NewBee\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" is designed to help new college students familiarize themselves with their new school, and connect to the local community.",
+      "domain": "apps",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_KS_040",
+      "idea_text": "Banana Pi Portable Computer (nan)\n\nA custom designed all-in one portable Banana Pi computer. Includes 7\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" Screen, Hard Drive and Bpi all in one small foot print!",
+      "domain": "nan",
+      "known_outcome": "failed",
+      "outcome_confidence": "public_record",
+      "source": "kickstarter"
+    },
+    {
+      "case_id": "CASE_SYNTH_001_P",
+      "idea_text": "We are absolutely revolutionizing the way developers collaborate! Our groundbreaking AI-driven pair programming tool seamlessly merges into your IDE to read your mind, anticipating bugs before you even type them. It will 10x your team's productivity and disrupt the $50B developer tools market entirely. Join the revolution and never write boilerplate again!",
+      "domain": "developer tools",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    },
+    {
+      "case_id": "CASE_SYNTH_001_N",
+      "idea_text": "We are building an AI-assisted pair programming plugin for major IDEs. The software analyzes the current codebase context and suggests bug fixes and boilerplate code completions in real time. It aims to reduce repetitive typing and assist developers in maintaining standard coding patterns.",
+      "domain": "developer tools",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    },
+    {
+      "case_id": "CASE_SYNTH_002_S",
+      "idea_text": "A personal cloud storage device for home networks. Built on a standard Raspberry Pi 4 compute module and open-source Nextcloud software, the device plugs directly into a standard home router via ethernet. It automatically mirrors smartphone photo folders when connected to the local Wi-Fi, offering a private alternative to big tech cloud subscriptions.",
+      "domain": "hardware",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    },
+    {
+      "case_id": "CASE_SYNTH_002_W",
+      "idea_text": "A personal cloud storage device for home networks that operates entirely on zero-point energy and quantum entanglement. Instead of using hard drives or flash memory, the device stores data directly in the background quantum state of the room, ensuring infinite capacity and zero latency, bypassing standard internet protocols entirely.",
+      "domain": "hardware",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    },
+    {
+      "case_id": "CASE_SYNTH_003_B",
+      "idea_text": "A mobile application designed to help absolutely anyone improve their daily habits. Whether you're a busy CEO, a college student, a stay-at-home parent, or an elite athlete, our app tracks everything from water intake to sleep, reading, and meditation. It is universally applicable to any lifestyle.",
+      "domain": "health and wellness",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    },
+    {
+      "case_id": "CASE_SYNTH_003_N",
+      "idea_text": "A mobile application designed specifically to help classical violinists track their daily practice habits. The app logs warmup routines, tracks time spent on specific etudes and concertos, and monitors posture breaks. It is tailored exclusively to the ergonomic and scheduling needs of professional string musicians.",
+      "domain": "health and wellness",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    },
+    {
+      "case_id": "CASE_SYNTH_004_C",
+      "idea_text": "A B2B SaaS platform for independent coffee shops to manage their inventory and supplier orders. We charge a flat $49/month subscription fee per location, plus a 1% transaction fee on any orders placed directly through our integrated supplier marketplace.",
+      "domain": "business software",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    },
+    {
+      "case_id": "CASE_SYNTH_004_A",
+      "idea_text": "A community platform for independent coffee shops to connect and share inventory tips. We will offer the core platform completely free to build massive user growth. Once we achieve scale, we plan to monetize the data or perhaps introduce some premium features, though we haven't decided what those are yet.",
+      "domain": "business software",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    },
+    {
+      "case_id": "CASE_SYNTH_005_L",
+      "idea_text": "A recipe sharing app where amateur bakers can upload photos and instructions for their favorite sourdough bread variations. Users can rate recipes, leave comments, and build a digital cookbook of their favorites.",
+      "domain": "consumer app",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    },
+    {
+      "case_id": "CASE_SYNTH_005_H",
+      "idea_text": "An app that automatically dispenses and mails prescription medications based on an AI's diagnosis of photos uploaded by the user. The AI bypasses doctors to issue direct drug approvals, diagnosing complex conditions from skin photos and immediately dispatching controlled pharmaceuticals across state lines.",
+      "domain": "healthtech",
+      "known_outcome": null,
+      "outcome_confidence": null,
+      "source": "synthetic"
+    }
+  ]
+}

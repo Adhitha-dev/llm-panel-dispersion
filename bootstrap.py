@@ -65,7 +65,7 @@ def setup_project():
         print("⚠️ Raw dataset not found. Skipping processing step.")
 
     print_step("6. Model Weights Download Reminder")
-    print("To download the ~200GB of LLM weights (Qwen, Gemma, Mistral, gpt-oss) locally to the models/ dir:")
+    print("To download the ~50GB of LLM weights (Llama, Gemma, Mistral, Qwen, Phi) locally to the models/ dir:")
     print("Ensure you have set 'export HF_TOKEN=<your_token>' and run:")
     print("    python scripts/download_models.py")
 
@@ -74,10 +74,10 @@ def setup_project():
 You are fully ready to run the evaluation pipeline once your models are served.
 
 To run the noise floor (C1) condition:
-    python -m src.cli.main run-c1 data/processed/cases.json "Qwen/Qwen3.6-27B" "qwen-snapshot" --n 10 --endpoint "http://localhost:8000/v1"
+    python -m src.cli.main run-c1 data/processed/cases.json "meta-llama/Meta-Llama-3.1-8B-Instruct" "llama-snapshot" --n 10 --endpoint "http://localhost:8000/v1"
 
 To run the panel (C2) condition:
-    python -m src.cli.main run-c2 data/processed/cases.json "Qwen/Qwen3.6-27B" "google/gemma-4-31B-it" "snapshot-1" "snapshot-2" "openai" "openai" "http://localhost:8000/v1" "http://localhost:8001/v1"
+    python -m src.cli.main run-c2 data/processed/cases.json "meta-llama/Meta-Llama-3.1-8B-Instruct" "google/gemma-2-9b-it" "snapshot-1" "snapshot-2" "vllm" "vllm" "http://localhost:8000/v1" "http://localhost:8001/v1"
 
 To calculate all metrics and generate paper figures:
     python -m src.cli.main compute-metrics experiments/EXP_C1_XYZ/tables/results.csv experiments/EXP_C2_ABC/tables/results.csv experiments/final_metrics

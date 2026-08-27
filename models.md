@@ -1,4 +1,5 @@
-Qwen3.6-27B	
-Gemma 4 31B	
-Mistral Small 3.2 24B	
-gpt-oss-20B	
+Llama-3.1-8B-Instruct (8-bit)
+Gemma-2-9B-It (8-bit)
+Mistral-7B-Instruct-v0.3 (8-bit)
+Qwen2.5-7B-Instruct (8-bit)
+Phi-4 (14B, 4-bit)

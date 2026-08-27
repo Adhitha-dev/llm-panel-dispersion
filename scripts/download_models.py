@@ -4,10 +4,11 @@ from huggingface_hub import snapshot_download
 
 # List of models specified in models.md
 MODELS = [
-    "Qwen/Qwen3.6-27B",
-    "google/gemma-4-31B-it",
-    "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-    "openai/gpt-oss-20b"
+    "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "google/gemma-2-9b-it",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "Qwen/Qwen2.5-7B-Instruct",
+    "microsoft/phi-4"
 ]
 
 def download_models():
@@ -17,13 +18,13 @@ def download_models():
     download_dir.mkdir(parents=True, exist_ok=True)
     
     print(f"Starting download of {len(MODELS)} models to {download_dir.absolute()} ...")
-    print("This will take significant time and storage (~200GB+).")
+    print("This will take significant time and storage (~50GB+).")
     
     # Retrieve HF_TOKEN if available (needed for gated models like Gemma)
     token = os.environ.get("HF_TOKEN")
     if not token:
         print("\nWARNING: HF_TOKEN environment variable is not set.")
-        print("Models like 'gemma-4-31B-it' are typically gated and require an authenticated token.")
+        print("Models like 'Meta-Llama-3.1-8B-Instruct' and 'gemma-2-9b-it' are typically gated and require an authenticated token.")
         print("If a download fails with a 401/403, please run: export HF_TOKEN='your_token_here'\n")
 
     for repo_id in MODELS:
