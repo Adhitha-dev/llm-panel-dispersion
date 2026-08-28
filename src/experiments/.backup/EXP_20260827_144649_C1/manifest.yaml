@@ -1,0 +1,11 @@
+condition: C1
+dataset_path: data/processed/cases_5.json
+models:
+- endpoint: http://localhost:8000/v1
+  name: models/Qwen2.5-7B-Instruct
+  provider: vllm
+  snapshot: models/Qwen2.5-7B-Instruct
+prompt_hash: 3bb65d16
+replicates: 10
+temperature: 0.0
+timestamp: '2026-08-27T14:46:49.740924'

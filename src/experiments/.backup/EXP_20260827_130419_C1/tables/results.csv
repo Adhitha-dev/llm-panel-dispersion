@@ -1,0 +1,651 @@
+case_id,model,model_snapshot,provider,endpoint,condition,replicate_index,prompt_version_hash,temperature,timestamp,attempt_index,raw_response_text,parsed_score,parsed_verdict,parsed_confidence,parsed_rubric_market_potential,parsed_rubric_technical_feasibility,parsed_rubric_business_viability,parsed_reasoning,validity_flag
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T13:04:19.152136,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and unclear long-term revenue model, though it is technically feasible and has some community appeal.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and unclear long-term revenue model, though it is technically feasible and has some community appeal.",True
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T13:04:19.833563,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.",True
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T13:04:19.832411,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.",True
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T13:04:19.831291,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.",True
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T13:04:19.839263,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.",True
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T13:04:19.836747,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.",True
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T13:04:19.834561,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.",True
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T13:04:19.837464,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.",True
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T13:04:19.838144,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.",True
+CASE_KS_001,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T13:04:19.838775,1,"```json
+{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.""
+}
+```",4,pass,80,3,4,2,"The idea targets a niche market with limited scalability and revenue potential. While feasible, it lacks a sustainable business model beyond event-based fundraising.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T13:05:36.003290,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T13:05:36.750315,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T13:05:36.752591,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T13:05:36.736448,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T13:05:36.748795,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T13:05:36.742611,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T13:05:36.738936,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T13:05:36.755606,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T13:05:36.740832,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_002,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T13:05:36.747240,1,"```json
+{
+  ""score"": 6,
+  ""verdict"": ""invest"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.""
+}
+```",6,invest,70,3,4,3,"The program addresses a niche need for activism training among CUNY students, with a clear target audience and feasible execution. However, scalability and broader market potential are limited to CUNY, impacting overall growth.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T13:07:04.088416,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T13:07:04.855740,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T13:07:04.857452,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T13:07:04.866693,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T13:07:04.874117,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T13:07:04.876430,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T13:07:04.872210,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T13:07:04.878698,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T13:07:04.870381,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_003,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T13:07:04.868019,1,"```json
+{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 95,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 0,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.""
+}
+```",2,pass,95,1,0,1,"The concept of a fusor in a bubblegum machine is technically infeasible and unsafe, posing significant engineering and regulatory challenges. The market for such a product is extremely limited due to safety concerns and lack of practical application.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T13:08:34.864682,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T13:08:35.625995,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T13:08:35.689034,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T13:08:35.658935,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T13:08:35.677854,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T13:08:35.690802,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T13:08:35.662900,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T13:08:35.666910,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T13:08:35.665300,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_004,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T13:08:35.669085,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.""
+}
+```",7,invest,75,4,3,4,"The concept leverages the growing trend of video commerce, with a strong market potential. However, technical integration and competition pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T13:09:51.271923,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.""
+}
+```",7,invest,75,4,3,4,"The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T13:09:51.291023,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.""
+}
+```",7,invest,75,4,3,4,"The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T13:09:51.321916,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.""
+}
+```",7,invest,75,4,3,4,"The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T13:09:51.297104,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.""
+}
+```",7,invest,75,4,3,4,"The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T13:09:51.304496,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.""
+}
+```",7,invest,75,4,3,4,"The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T13:09:51.293804,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.""
+}
+```",7,invest,75,4,3,4,"The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T13:09:51.317731,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.""
+}
+```",7,invest,75,4,3,4,"The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T13:09:51.316017,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.""
+}
+```",7,invest,75,4,3,4,"The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T13:09:51.300756,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.""
+}
+```",7,invest,75,4,3,4,"The curated video space addresses a niche market with growing interest in non-fiction storytelling, offering a unique platform for filmmakers. However, competition and technical execution pose challenges.",True
+CASE_KS_005,models/phi-4,models/phi-4,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T13:09:50.515309,1,"```json
+{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 75,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept taps into the growing demand for diverse storytelling and art, with a strong niche in non-fiction. However, competition with established platforms and technical challenges in distribution need addressing.""
+}
+```",7,invest,75,4,3,4,"The concept taps into the growing demand for diverse storytelling and art, with a strong niche in non-fiction. However, competition with established platforms and technical challenges in distribution need addressing.",True

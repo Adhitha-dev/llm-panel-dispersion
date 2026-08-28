@@ -1,0 +1,11 @@
+condition: C1
+dataset_path: data/processed/cases.json
+models:
+- endpoint: http://localhost:8000/v1
+  name: models/Qwen2.5-7B-Instruct
+  provider: openai
+  snapshot: models/Qwen2.5-7B-Instruct
+prompt_hash: 3bb65d16
+replicates: 10
+temperature: 0.0
+timestamp: '2026-08-21T09:43:01.666656'

@@ -1,0 +1,551 @@
+case_id,model,model_snapshot,provider,endpoint,condition,replicate_index,prompt_version_hash,temperature,timestamp,attempt_index,raw_response_text,parsed_score,parsed_verdict,parsed_confidence,parsed_rubric_market_potential,parsed_rubric_technical_feasibility,parsed_rubric_business_viability,parsed_reasoning,validity_flag
+CASE_KS_010,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:56.543615,1," {
+  ""score"": 5,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""Limited market potential for a niche social experiment, questionable technical feasibility as a software solution, and unclear business model.""
+}",5,pass,70,1,3,1,"Limited market potential for a niche social experiment, questionable technical feasibility as a software solution, and unclear business model.",True
+CASE_KS_001,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:55.978107,1," {
+  ""score"": 5,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 0,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""Lack of clear business model or product, focusing on events rather than a scalable software solution. Limited market potential as it seems to be a local event.""
+}",5,pass,80,0,5,1,"Lack of clear business model or product, focusing on events rather than a scalable software solution. Limited market potential as it seems to be a local event.",True
+CASE_KS_006,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:56.539062,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""Limited market potential due to niche product and high price point. Technical feasibility is high given the traditional nature of the product. Business viability is low due to potential production costs and limited target audience.""
+}",6,pass,80,3,5,2,Limited market potential due to niche product and high price point. Technical feasibility is high given the traditional nature of the product. Business viability is low due to potential production costs and limited target audience.,True
+CASE_KS_002,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:56.534041,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""Limited market potential due to focus on CUNY students, feasibility is moderate as it's a skills development program, but business viability is low due to lack of clear revenue streams or scalability beyond CUNY.""
+}",6,pass,80,3,4,3,"Limited market potential due to focus on CUNY students, feasibility is moderate as it's a skills development program, but business viability is low due to lack of clear revenue streams or scalability beyond CUNY.",True
+CASE_KS_007,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:56.539874,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea has potential in the growing health and fitness market. However, it lacks unique selling points to differentiate itself from existing apps. Technical feasibility is achievable given the current technology landscape. Business viability can be improved by focusing on user acquisition and retention strategies.""
+}",7,invest,80,4,4,4,"The idea has potential in the growing health and fitness market. However, it lacks unique selling points to differentiate itself from existing apps. Technical feasibility is achievable given the current technology landscape. Business viability can be improved by focusing on user acquisition and retention strategies.",True
+CASE_KS_004,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:56.535830,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 5
+  },
+  ""reasoning"": ""The idea combines two popular platforms, Ebay and YouTube, which suggests a strong market potential. However, the technical feasibility is questionable due to the complexity of integrating video content and e-commerce functionalities. The business viability is high due to the potential for user engagement and monetization opportunities.""
+}",7,invest,85,4,4,5,"The idea combines two popular platforms, Ebay and YouTube, which suggests a strong market potential. However, the technical feasibility is questionable due to the complexity of integrating video content and e-commerce functionalities. The business viability is high due to the potential for user engagement and monetization opportunities.",True
+CASE_KS_008,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:56.540775,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 5
+  },
+  ""reasoning"": ""The idea shows potential for a niche market in NYC, where parking is a significant issue. The technical feasibility is moderate due to the existing competition in the valet and ride-hailing services. However, the business viability is high due to the convenience and time-saving aspect of the service.""
+}",7,invest,80,4,4,5,"The idea shows potential for a niche market in NYC, where parking is a significant issue. The technical feasibility is moderate due to the existing competition in the valet and ride-hailing services. However, the business viability is high due to the convenience and time-saving aspect of the service.",True
+CASE_KS_003,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:56.534953,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 2,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The novelty of a fusion reactor inside a bubblegum machine is intriguing, but the market potential is limited due to the niche audience and high safety concerns. The technical feasibility is somewhat promising, but the business viability is questionable due to the high costs and regulatory hurdles involved in fusion technology.""
+}",6,pass,80,2,4,1,"The novelty of a fusion reactor inside a bubblegum machine is intriguing, but the market potential is limited due to the niche audience and high safety concerns. The technical feasibility is somewhat promising, but the business viability is questionable due to the high costs and regulatory hurdles involved in fusion technology.",True
+CASE_KS_005,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:56.536646,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept of a curated video space for non-fiction storytelling and art has a niche market potential. The technical feasibility is high given the existing software infrastructure for video platforms. However, the business viability score is lower due to the competitive landscape and the need for a unique value proposition to attract users and filmmakers.""
+}",7,invest,85,4,5,4,"The concept of a curated video space for non-fiction storytelling and art has a niche market potential. The technical feasibility is high given the existing software infrastructure for video platforms. However, the business viability score is lower due to the competitive landscape and the need for a unique value proposition to attract users and filmmakers.",True
+CASE_KS_009,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:41:56.543129,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea has a strong potential to address a significant social issue (DUI deaths). The technical feasibility is high given the existing on-demand app model and the availability of return technology. However, the market potential is limited due to competition from existing ride-sharing services. The business viability score is lower due to the need for partnerships with scooter, BART, bus companies, and the challenge of attracting volunteers or employees as drivers.""
+}",7,invest,80,4,5,4,"The idea has a strong potential to address a significant social issue (DUI deaths). The technical feasibility is high given the existing on-demand app model and the availability of return technology. However, the market potential is limited due to competition from existing ride-sharing services. The business viability score is lower due to the need for partnerships with scooter, BART, bus companies, and the challenge of attracting volunteers or employees as drivers.",True
+CASE_KS_011,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:42:53.333648,1," {
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 2,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""Limited market potential for a niche product like Web Designer T-shirts. While the technical feasibility is high, the business viability is low due to lack of a clear business model and competition from established merchandise providers.""
+}",4,pass,80,2,5,1,"Limited market potential for a niche product like Web Designer T-shirts. While the technical feasibility is high, the business viability is low due to lack of a clear business model and competition from established merchandise providers.",True
+CASE_KS_014,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:43:02.932686,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 2,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The idea lacks clarity and a unique value proposition, making it difficult to assess market potential. While technically feasible, the business model seems unclear and unsustainable.""
+}",6,pass,80,2,3,1,"The idea lacks clarity and a unique value proposition, making it difficult to assess market potential. While technically feasible, the business model seems unclear and unsustainable.",True
+CASE_KS_012,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:42:55.825620,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""While the idea of a hackerspace has potential, the specific proposal lacks a clear value proposition or unique selling point. The market for creative technology spaces may be saturated in NYC, and the business model isn't clearly defined. However, the technical feasibility is high given the existing infrastructure and community.""
+}",6,pass,80,3,4,3,"While the idea of a hackerspace has potential, the specific proposal lacks a clear value proposition or unique selling point. The market for creative technology spaces may be saturated in NYC, and the business model isn't clearly defined. However, the technical feasibility is high given the existing infrastructure and community.",True
+CASE_KS_016,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:43:14.298235,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Niche market for eco-friendly, naturally dyed fabrics. Innovative use of technology to scale production. Business model may require careful planning to ensure profitability.""
+}",7,invest,85,4,5,4,"Niche market for eco-friendly, naturally dyed fabrics. Innovative use of technology to scale production. Business model may require careful planning to ensure profitability.",True
+CASE_KS_019,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:43:17.761587,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""Limited market potential for a niche product, such as interactive outdoor seating structures. While technically feasible, the business model lacks clarity and scalability.""
+}",6,pass,70,3,4,2,"Limited market potential for a niche product, such as interactive outdoor seating structures. While technically feasible, the business model lacks clarity and scalability.",True
+CASE_KS_013,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:43:00.459894,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 5
+  },
+  ""reasoning"": ""Leverages nostalgia for a popular 80s product, offering potential for a niche market. Technical feasibility is achievable with advancements in smart shoe technology. Business viability is strong due to the potential for partnerships with sports brands and adaptations for motor-disabled individuals.""
+}",7,invest,85,4,4,5,"Leverages nostalgia for a popular 80s product, offering potential for a niche market. Technical feasibility is achievable with advancements in smart shoe technology. Business viability is strong due to the potential for partnerships with sports brands and adaptations for motor-disabled individuals.",True
+CASE_KS_018,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:43:15.156137,1," {
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 2,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea has limited market potential as it caters to a specific and small audience (schizophrenic individuals and their families). While technically feasible, the app's purpose may raise ethical concerns. Business viability is low due to the niche market and potential lack of monetization opportunities.""
+}",4,pass,70,2,4,2,"The idea has limited market potential as it caters to a specific and small audience (schizophrenic individuals and their families). While technically feasible, the app's purpose may raise ethical concerns. Business viability is low due to the niche market and potential lack of monetization opportunities.",True
+CASE_KS_015,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:43:08.961729,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea presents a multi-functional device, which could appeal to a broad audience. However, the market for such a product is already saturated with similar offerings. The technical feasibility is high due to the existing technology in each of the functions. The business viability is low due to the high competition and potential for low differentiation.""
+}",6,pass,70,3,4,3,"The idea presents a multi-functional device, which could appeal to a broad audience. However, the market for such a product is already saturated with similar offerings. The technical feasibility is high due to the existing technology in each of the functions. The business viability is low due to the high competition and potential for low differentiation.",True
+CASE_KS_017,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:43:14.303279,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea leverages a popular platform (iPad) with a growing niche market (music production software). Technical feasibility is high due to the existing software development ecosystem for iPad. However, the business viability score is lower due to the competitive market and the need for a unique selling proposition to stand out.""
+}",7,invest,85,4,5,3,"The idea leverages a popular platform (iPad) with a growing niche market (music production software). Technical feasibility is high due to the existing software development ecosystem for iPad. However, the business viability score is lower due to the competitive market and the need for a unique selling proposition to stand out.",True
+CASE_KS_020,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:43:28.842706,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has a niche market potential, but the app's unique selling point (location-based communication without a contact list) may face privacy concerns and competition from existing solutions. The business model seems unclear.""
+}",6,pass,80,3,4,3,"The idea has a niche market potential, but the app's unique selling point (location-based communication without a contact list) may face privacy concerns and competition from existing solutions. The business model seems unclear.",True
+CASE_KS_021,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:43:58.875807,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the technical feasibility of creating an audio feedback system for bicycles is plausible, the market potential is limited due to the niche audience. Business viability is questionable as it may struggle to find a sustainable revenue model.""
+}",6,pass,80,3,4,2,"While the technical feasibility of creating an audio feedback system for bicycles is plausible, the market potential is limited due to the niche audience. Business viability is questionable as it may struggle to find a sustainable revenue model.",True
+CASE_KS_022,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:44:01.506186,1," {
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 2,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea presents a simple product with potential technical feasibility, but the market potential is limited due to high competition in the outdoor equipment market. Business viability is questionable as the product lacks unique selling points or innovative features.""
+}",4,pass,80,2,5,2,"The idea presents a simple product with potential technical feasibility, but the market potential is limited due to high competition in the outdoor equipment market. Business viability is questionable as the product lacks unique selling points or innovative features.",True
+CASE_KS_024,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:44:10.719998,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has potential in the growing digital media market, but the concept is not unique. Technical feasibility is achievable, but the business model lacks clarity. The app would face stiff competition from established players.""
+}",6,pass,80,3,4,3,"The idea has potential in the growing digital media market, but the concept is not unique. Technical feasibility is achievable, but the business model lacks clarity. The app would face stiff competition from established players.",True
+CASE_KS_025,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:44:11.581243,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea addresses a specific pain point, but the market is limited to drivers who prioritize safety. The technical feasibility is moderate, as there are existing solutions in the market. However, the business viability is questionable due to the niche market and potential competition.""
+}",6,pass,80,3,4,3,"The idea addresses a specific pain point, but the market is limited to drivers who prioritize safety. The technical feasibility is moderate, as there are existing solutions in the market. However, the business viability is questionable due to the niche market and potential competition.",True
+CASE_KS_027,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:44:24.231056,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""Limited market potential due to niche product, potential patent provides some technical feasibility, but lack of business plan and professional presentation lowers business viability.""
+}",6,pass,70,3,4,2,"Limited market potential due to niche product, potential patent provides some technical feasibility, but lack of business plan and professional presentation lowers business viability.",True
+CASE_KS_029,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:44:24.647867,1," {
+  ""score"": 5,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 2,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""Limited market appeal for a specialized product, questionable technical feasibility in creating a multi-length straw, and unclear business model for profitability.""
+}",5,pass,80,2,3,2,"Limited market appeal for a specialized product, questionable technical feasibility in creating a multi-length straw, and unclear business model for profitability.",True
+CASE_KS_028,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:44:24.232936,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea addresses a significant problem (market potential) and the proposed solution (Google Glass App) seems technically feasible. However, the business viability is questionable due to competition from established players and potential regulatory hurdles.""
+}",7,invest,85,4,5,4,"The idea addresses a significant problem (market potential) and the proposed solution (Google Glass App) seems technically feasible. However, the business viability is questionable due to competition from established players and potential regulatory hurdles.",True
+CASE_KS_026,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:44:13.145419,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea of preserving the demoscene spirit is commendable, the market potential seems limited due to the niche nature of the demoscene. The technical feasibility is high given the software-based nature of the event. However, the business viability is low due to the lack of a clear revenue model and the high reliance on fundraising.""
+}",6,pass,80,3,5,2,"While the idea of preserving the demoscene spirit is commendable, the market potential seems limited due to the niche nature of the demoscene. The technical feasibility is high given the software-based nature of the event. However, the business viability is low due to the lack of a clear revenue model and the high reliance on fundraising.",True
+CASE_KS_023,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:44:08.671116,1," {
+  ""score"": 5,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the product concept seems appealing, the market potential is limited due to competition in the stress-relief and fidget toy market. The technical feasibility is moderate as the 'satisfying-bounce' and 'reassuring-thud' can be achieved with existing technology. However, the business viability is low due to the lack of unique selling points and the potential for low profit margins.""
+}",5,pass,80,3,4,2,"While the product concept seems appealing, the market potential is limited due to competition in the stress-relief and fidget toy market. The technical feasibility is moderate as the 'satisfying-bounce' and 'reassuring-thud' can be achieved with existing technology. However, the business viability is low due to the lack of unique selling points and the potential for low profit margins.",True
+CASE_KS_030,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:44:30.499422,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has potential in the large Chinese real estate market, but the global scope may be too broad for initial focus. Technical feasibility is reasonable, but the business model lacks a clear competitive advantage or unique selling proposition.""
+}",6,pass,80,3,4,3,"The idea has potential in the large Chinese real estate market, but the global scope may be too broad for initial focus. Technical feasibility is reasonable, but the business model lacks a clear competitive advantage or unique selling proposition.",True
+CASE_KS_033,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:11.982652,1," {
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 2,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""Limited market potential for a niche product, questionable scalability, and unclear business model.""
+}",4,pass,70,2,4,2,"Limited market potential for a niche product, questionable scalability, and unclear business model.",True
+CASE_KS_032,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:04.286459,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The idea has potential in terms of technical feasibility, but the market potential is unclear and the business viability is questionable due to lack of a unique selling proposition and a clear business model.""
+}",6,pass,80,3,4,2,"The idea has potential in terms of technical feasibility, but the market potential is unclear and the business viability is questionable due to lack of a unique selling proposition and a clear business model.",True
+CASE_KS_031,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:02.203313,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""While the idea has potential for niche appeal, the market for personal photo organization apps is saturated. Technical feasibility is moderate due to the specific search functionality, but business viability is questionable due to competition and monetization challenges.""
+}",6,pass,80,3,4,3,"While the idea has potential for niche appeal, the market for personal photo organization apps is saturated. Technical feasibility is moderate due to the specific search functionality, but business viability is questionable due to competition and monetization challenges.",True
+CASE_KS_035,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:19.583369,1," {
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 2,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""Limited market potential for a niche product, questionable technical feasibility due to the mention of a 'random start system', and concerns about business viability given the high price point for an unproven product.""
+}",4,pass,80,2,3,3,"Limited market potential for a niche product, questionable technical feasibility due to the mention of a 'random start system', and concerns about business viability given the high price point for an unproven product.",True
+CASE_KS_036,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:19.586877,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea addresses a specific niche market with potential, but the market size may be limited. Technical feasibility is achievable with existing software development tools. However, the business model and competitive differentiation need further clarification to ensure long-term viability.""
+}",6,pass,70,4,4,4,"The idea addresses a specific niche market with potential, but the market size may be limited. Technical feasibility is achievable with existing software development tools. However, the business model and competitive differentiation need further clarification to ensure long-term viability.",True
+CASE_KS_034,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:17.930437,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has potential for niche appeal, but the market is not clearly defined or large enough for significant growth. Technical feasibility is moderate as facial recognition technology is advancing, but the app's unique selling proposition needs to be more clearly articulated. Business viability is questionable due to the lack of a clear monetization strategy and potential privacy concerns.""
+}",6,pass,70,3,4,3,"The idea has potential for niche appeal, but the market is not clearly defined or large enough for significant growth. Technical feasibility is moderate as facial recognition technology is advancing, but the app's unique selling proposition needs to be more clearly articulated. Business viability is questionable due to the lack of a clear monetization strategy and potential privacy concerns.",True
+CASE_KS_037,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:27.051500,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea has a strong market potential as it addresses a significant need for accessibility in the video-sharing market. Miro's existing user base provides a solid foundation. However, the non-profit model may impact long-term sustainability, which lowers the business viability score.""
+}",7,invest,85,4,5,4,"The idea has a strong market potential as it addresses a significant need for accessibility in the video-sharing market. Miro's existing user base provides a solid foundation. However, the non-profit model may impact long-term sustainability, which lowers the business viability score.",True
+CASE_KS_039,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:29.525639,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea has potential to address a specific pain point for college students, but the market is saturated with similar apps. Technical feasibility is achievable, but the app would need to offer unique features to stand out. Business viability is questionable due to competition and potential user acquisition challenges.""
+}",6,pass,80,4,4,4,"The idea has potential to address a specific pain point for college students, but the market is saturated with similar apps. Technical feasibility is achievable, but the app would need to offer unique features to stand out. Business viability is questionable due to competition and potential user acquisition challenges.",True
+CASE_KS_040,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:32.176314,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""Limited market potential for a specialized portable computer, especially one based on an older Banana Pi platform. Technical feasibility is present, but the product may face challenges in differentiating itself from other portable computing solutions. Business viability is questionable due to the niche market and potential competition.""
+}",6,pass,80,3,4,2,"Limited market potential for a specialized portable computer, especially one based on an older Banana Pi platform. Technical feasibility is present, but the product may face challenges in differentiating itself from other portable computing solutions. Business viability is questionable due to the niche market and potential competition.",True
+CASE_KS_038,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:45:29.106671,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea presents a unique value proposition with a convenient solution for furniture assembly, potentially appealing to a broad market. The technical feasibility seems achievable given the current state of product design and manufacturing. However, the business viability score is lower due to concerns about competition, pricing, and long-term sustainability.""
+}",7,invest,85,4,5,4,"The idea presents a unique value proposition with a convenient solution for furniture assembly, potentially appealing to a broad market. The technical feasibility seems achievable given the current state of product design and manufacturing. However, the business viability score is lower due to concerns about competition, pricing, and long-term sustainability.",True
+CASE_SYNTH_002_S,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:06.288888,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea has technical feasibility with the use of Raspberry Pi and Nextcloud, the market potential is limited due to competition from established cloud storage providers. The business viability is questionable as it lacks a clear competitive advantage and revenue model.""
+}",6,pass,80,3,5,2,"While the idea has technical feasibility with the use of Raspberry Pi and Nextcloud, the market potential is limited due to competition from established cloud storage providers. The business viability is questionable as it lacks a clear competitive advantage and revenue model.",True
+CASE_SYNTH_001_P,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:02.178047,1," {
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 5,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea targets a large market with significant potential ($50B developer tools market). The AI-driven pair programming tool concept is innovative and could potentially revolutionize developer collaboration. However, the claim of a 10x productivity increase may be overstated, which impacts the business viability score.""
+}",8,invest,85,5,5,4,"The idea targets a large market with significant potential ($50B developer tools market). The AI-driven pair programming tool concept is innovative and could potentially revolutionize developer collaboration. However, the claim of a 10x productivity increase may be overstated, which impacts the business viability score.",True
+CASE_SYNTH_001_N,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:03.043438,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea targets a growing market with a valuable problem-solution fit. AI-assisted pair programming can increase productivity and code quality. Technical feasibility is high given the existing AI and IDE technologies. However, the business viability score is lower due to potential competition and the need for partnerships with major IDE providers.""
+}",7,invest,85,4,5,4,"The idea targets a growing market with a valuable problem-solution fit. AI-assisted pair programming can increase productivity and code quality. Technical feasibility is high given the existing AI and IDE technologies. However, the business viability score is lower due to potential competition and the need for partnerships with major IDE providers.",True
+CASE_SYNTH_003_N,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:32.246820,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Niche market with clear pain points, feasible technical implementation, and potential for recurring revenue through subscription or premium features.""
+}",7,invest,85,4,5,4,"Niche market with clear pain points, feasible technical implementation, and potential for recurring revenue through subscription or premium features.",True
+CASE_SYNTH_002_W,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:19.967687,1," {
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 5,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""Innovative concept with potential to disrupt traditional cloud storage market. However, technical feasibility is questionable due to the use of zero-point energy and quantum entanglement, which are still largely theoretical. Business viability is low due to the high technological barrier to entry and potential consumer skepticism.""
+}",8,invest,85,5,5,3,"Innovative concept with potential to disrupt traditional cloud storage market. However, technical feasibility is questionable due to the use of zero-point energy and quantum entanglement, which are still largely theoretical. Business viability is low due to the high technological barrier to entry and potential consumer skepticism.",True
+CASE_SYNTH_003_B,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:24.162272,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has a broad market potential due to its universal applicability. However, the competition in the health and habit-tracking app market is high. The technical feasibility is high given the existing technology for tracking various habits. The business viability score is lower due to the need for a unique value proposition to stand out in a crowded market.""
+}",7,invest,80,4,5,3,"The idea has a broad market potential due to its universal applicability. However, the competition in the health and habit-tracking app market is high. The technical feasibility is high given the existing technology for tracking various habits. The business viability score is lower due to the need for a unique value proposition to stand out in a crowded market.",True
+CASE_SYNTH_004_A,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:37.196957,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""While the idea has potential for a niche market, the lack of a clear monetization strategy and premium features limits its immediate appeal for investors. The free platform model may struggle to generate sufficient revenue to sustain the business.""
+}",6,pass,70,3,4,3,"While the idea has potential for a niche market, the lack of a clear monetization strategy and premium features limits its immediate appeal for investors. The free platform model may struggle to generate sufficient revenue to sustain the business.",True
+CASE_SYNTH_004_C,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:34.727173,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong technical feasibility with a clear product offering. Market potential is limited to independent coffee shops, but the subscription model and transaction fees could generate steady revenue. Business viability is somewhat uncertain due to competition and market saturation, but the model has potential for scalability.""
+}",7,invest,85,4,5,4,"Strong technical feasibility with a clear product offering. Market potential is limited to independent coffee shops, but the subscription model and transaction fees could generate steady revenue. Business viability is somewhat uncertain due to competition and market saturation, but the model has potential for scalability.",True
+CASE_SYNTH_005_L,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:38.062133,1," {
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""While the idea has potential in a niche market, the competition is high. Technical feasibility is good due to existing solutions for photo and text sharing. However, business viability is questionable due to the need for user acquisition and monetization strategies.""
+}",6,pass,80,4,5,3,"While the idea has potential in a niche market, the competition is high. Technical feasibility is good due to existing solutions for photo and text sharing. However, business viability is questionable due to the need for user acquisition and monetization strategies.",True
+CASE_SYNTH_005_H,models/Mistral-7B-Instruct-v0.3,models/Mistral-7B-Instruct-v0.3,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-21T10:46:38.807788,1," {
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""High market potential due to convenience and time-saving aspects. Technical feasibility is reasonable given advancements in AI and image recognition. However, business viability is questionable due to regulatory challenges, ethical concerns, and potential legal issues related to bypassing doctors and dispensing controlled substances.""
+}",7,invest,80,4,5,3,"High market potential due to convenience and time-saving aspects. Technical feasibility is reasonable given advancements in AI and image recognition. However, business viability is questionable due to regulatory challenges, ethical concerns, and potential legal issues related to bypassing doctors and dispensing controlled substances.",True

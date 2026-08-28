@@ -1,0 +1,551 @@
+case_id,model,model_snapshot,provider,endpoint,condition,replicate_index,prompt_version_hash,temperature,timestamp,attempt_index,raw_response_text,parsed_score,parsed_verdict,parsed_confidence,parsed_rubric_market_potential,parsed_rubric_technical_feasibility,parsed_rubric_business_viability,parsed_reasoning,validity_flag
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T12:55:32.790223,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T12:55:33.553143,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T12:55:33.554692,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T12:55:33.557797,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T12:55:33.560481,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T12:55:33.561664,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T12:55:33.551614,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T12:55:33.550703,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T12:55:33.559494,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T12:55:33.560007,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T12:56:09.038766,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T12:56:09.452546,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T12:56:09.450936,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T12:56:09.445889,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T12:56:09.455878,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T12:56:09.457437,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T12:56:09.454208,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T12:56:09.444068,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T12:56:09.447622,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T12:56:09.449245,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T12:56:45.378263,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T12:56:45.769130,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T12:56:45.788370,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T12:56:45.786713,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T12:56:45.791466,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T12:56:45.792980,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T12:56:45.789913,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T12:56:45.784743,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T12:56:45.797927,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T12:56:45.799446,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T12:57:20.752465,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T12:57:21.210035,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T12:57:21.208355,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T12:57:21.202009,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T12:57:21.215801,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T12:57:21.218472,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T12:57:21.213847,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T12:57:21.199982,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T12:57:21.203952,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T12:57:21.206166,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,1,3bb65d16,0.0,2026-08-27T12:57:59.028474,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,2,3bb65d16,0.0,2026-08-27T12:57:59.432325,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,5,3bb65d16,0.0,2026-08-27T12:57:59.445666,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,4,3bb65d16,0.0,2026-08-27T12:57:59.444022,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,7,3bb65d16,0.0,2026-08-27T12:57:59.448185,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,8,3bb65d16,0.0,2026-08-27T12:57:59.449271,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,6,3bb65d16,0.0,2026-08-27T12:57:59.446992,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,3,3bb65d16,0.0,2026-08-27T12:57:59.442718,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,9,3bb65d16,0.0,2026-08-27T12:57:59.453258,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C1,10,3bb65d16,0.0,2026-08-27T12:57:59.454493,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True

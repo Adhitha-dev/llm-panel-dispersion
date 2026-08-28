@@ -1,9 +1,6 @@
 # Datasets and large raw files
 data/raw/
 
-# Experiment results, logs, and generated tables/figures
-experiments/
-
 # Model weights
 models/
 .cache/

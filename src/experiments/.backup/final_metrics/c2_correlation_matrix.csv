@@ -1,0 +1,4 @@
+model,models/Mistral-7B-Instruct-v0.3,models/Qwen2.5-7B-Instruct,models/phi-4
+models/Mistral-7B-Instruct-v0.3,1.0,0.6149528643134373,0.4283490634172784
+models/Qwen2.5-7B-Instruct,0.6149528643134373,1.0,0.6326835364239722
+models/phi-4,0.4283490634172784,0.6326835364239722,1.0
