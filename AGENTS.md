@@ -97,8 +97,10 @@ Every evaluator call MUST be conditionally independent at inference time — it 
 ## 4.1 Runtime
 
 - Python 3.10+.
-- L40S-class local GPU for any locally-served model(s); remote API calls for hosted models (GPT/Claude/Gemini as available).
+- T4-class local GPU (16GB VRAM) for any locally-served model(s); remote API calls for hosted models (GPT/Claude/Gemini as available). Because the T4 has limited VRAM, 7B parameter models are the absolute maximum size for unquantized inference, and memory utilization must be strictly managed.
 - OpenAI-compatible HTTP interface where possible, so the runner isn't hard-coded to one server.
+- **CRITICAL DEPENDENCIES:** Must use exactly `vllm==0.27.0`. Newer versions (0.28.0+) drop support for the required `bitsandbytes` quantization. You must also install the `bitsandbytes` and `seaborn` Python libraries manually if using a fresh clone.
+- **CRITICAL VLLM ARGS (For T4):** When serving 7B-8B models on a 16GB T4, you MUST use: `--quantization bitsandbytes --load-format bitsandbytes --max-model-len 2048 --gpu-memory-utilization 0.99`.
 
 ## 4.2 Environment variables
 
@@ -227,7 +229,7 @@ Since this harness does **not** do pairwise AB/BA comparative judging (each judg
 
 ## 8.2 C2 — CROSS_MODEL_PANEL
 
-- 3–5 different models/providers.
+- 3 strictly different model families: `Qwen2.5-7B-Instruct`, `Mistral-7B-Instruct-v0.3`, and `Meta-Llama-3-8B-Instruct`. (Phi-3 architectures are fundamentally unsupported on `vLLM 0.27.0` and should not be used).
 - Every case, one call each, temperature 0.0, identical generation params.
 - Purpose: real cross-model disagreement, to be compared against the C1 floor.
 

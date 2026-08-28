@@ -26,6 +26,9 @@ async def run_evaluation_task(
     temperature: float,
     prompt_hash: str
 ):
+    # Stagger execution based on replicate index to prevent concurrent request deduplication in vLLM
+    await asyncio.sleep(replicate_index * 0.2)
+    
     prompt_text = EVALUATION_PROMPT_TEMPLATE.format(idea_text=case.idea_text)
     
     # Task base info
