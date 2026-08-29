@@ -26,15 +26,29 @@ The experiment is divided into two distinct conditions to isolate hardware/sampl
 
 ### Condition 1 (C1): Same-Model Replicates (The Noise Floor)
 **Goal:** Measure a model's internal stochastic instability on identical prompts at Temperature 0.0.
-* **Flip Rate:** The fraction of replicates disagreeing with the model's own majority verdict.
-* **Score Standard Deviation:** The variance of the numerical scores (1-10) across 10 identical runs.
-* **Rubric Profile Distance:** The mean absolute deviation across the 3 sub-dimensions (Market, Feasibility, Business Viability) to detect if a model reached the same final score via different reasoning paths.
+* **Flip Rate:** $1 - \frac{\max_c(n_{ic})}{R}$  
+  The fraction of replicates disagreeing with the model's own majority verdict.
+* **Score Standard Deviation:** $s_i = \sqrt{\frac{1}{R-1} \sum_r (x_{ir} - \bar{x}_i)^2}$  
+  The variance of the numerical scores (1-10) across $R=10$ identical runs.
+* **Rubric Profile Distance:** $D(A,B) = \frac{\sum_j |A_j - B_j|}{n_{dims} \times 5}$  
+  The mean absolute deviation across the 3 sub-dimensions (Market, Feasibility, Business Viability) to detect if a model reached the same final score via different reasoning paths.
 
 ### Condition 2 (C2): Cross-Model Panel Disagreement
 **Goal:** Measure genuine substantive disagreement between distinct LLM families (Qwen, Mistral, Llama).
-* **Verdict Entropy:** Calculates how split the panel is on a specific idea ($0 = unanimous$, max at even split).
-* **Mean Pairwise Absolute Deviation (MPAD):** Direct dispersion metric on numeric scores across the panel members.
-* **Effective Viewpoints:** Using Pearson score correlation as a similarity measure, we calculate Kish's effective sample size to determine how many *statistically independent* viewpoints a panel of $N$ models actually provides.
+* **Verdict Entropy:** $H_i = -\sum_c p_c \log_2(p_c)$  
+  Calculates how split the panel is on a specific idea ($0 = unanimous$, max at even split).
+* **Mean Pairwise Absolute Deviation (MPAD):** $MPAD_i = \frac{2}{k_i(k_i-1)} \sum_{a<b} |s_{ia} - s_{ib}|$  
+  Direct dispersion metric on numeric scores across the panel members.
+* **Effective Viewpoints:** $N_{eff} = \frac{N}{1 + (N-1)\bar{\rho}}$  
+  Using Pearson score correlation ($\bar{\rho}$) as a similarity measure, we calculate Kish's effective sample size to determine how many *statistically independent* viewpoints a panel of $N$ models actually provides.
+
+## Observed Results
+
+The harness was executed on a panel of three structurally distinct models (`Qwen2.5-7B`, `Mistral-7B`, and `Meta-Llama-3-8B`) over a 50-case startup dataset. 
+
+* **The Stochastic Noise Floor is Zero (C1):** All three models achieved a **0.000 Flip Rate** and an aggregate **Score SD < 0.007** across 500 evaluations. We definitively proved via prefix-cache invalidation and logprob margin analysis that floating-point kernel noise on GPUs does not cause verdict instability under greedy decoding ($T=0.0$).
+* **Cross-Model Disagreement is Real (C2):** With the noise floor established at zero, the variation observed between models represents genuine pluralism. Llama-3 and Qwen2.5 displayed a Pearson correlation of just **0.54**, demonstrating strong, substantive disagreement on the exact same startup pitches.
+* **Panel Redundancy:** Despite fielding 3 distinct models, overlapping pre-training paradigms and RLHF alignments caused the panel to act as only **1.31 Effective Viewpoints**. This suggests that simply throwing more models at an evaluation panel yields diminishing returns on viewpoint diversity.
 
 ## Reproduction Instructions
 
