@@ -168,7 +168,8 @@ def run_c2(
 
 
 from src.metrics.calculator import compute_c1_metrics, compute_c2_metrics, generate_four_pattern_grid
-from src.reporting.plots import plot_c1_score_distribution, plot_correlation_heatmap, plot_verdict_entropy, plot_c1_vs_c2_variability, plot_pairwise_agreement_heatmap
+from src.reporting.plots import (plot_c1_score_distribution, plot_c1_flip_rate, plot_correlation_heatmap,
+    plot_verdict_entropy, plot_c1_vs_c2_variability, plot_pairwise_agreement_heatmap, plot_c2_mpad)
 import pandas as pd
 
 @app.command()
@@ -216,6 +217,7 @@ def make_figures(
     
     df_c1 = pd.read_csv(c1_results_csv)
     plot_c1_score_distribution(df_c1, out_path)
+    plot_c1_flip_rate(df_c1, out_path)
     
     corr_matrix = pd.read_csv(c2_correlation_csv, index_col=0)
     plot_correlation_heatmap(corr_matrix, out_path)
@@ -225,6 +227,7 @@ def make_figures(
     
     df_c2_metrics = pd.read_csv(c2_metrics_csv)
     plot_verdict_entropy(df_c2_metrics, out_path)
+    plot_c2_mpad(df_c2_metrics, out_path)
     
     df_grid = pd.read_csv(grid_csv)
     plot_c1_vs_c2_variability(df_grid, out_path)
