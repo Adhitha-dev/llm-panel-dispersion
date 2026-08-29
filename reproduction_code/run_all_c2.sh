@@ -10,7 +10,7 @@ MODELS=(
 
 # Create a master folder for C2
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
-MASTER_C2_DIR="experiments/EXP_${TIMESTAMP}_C2_MASTER"
+MASTER_C2_DIR="../../experiments/EXP_${TIMESTAMP}_C2_MASTER"
 mkdir -p "$MASTER_C2_DIR/tables"
 mkdir -p "$MASTER_C2_DIR/parsed"
 
@@ -45,8 +45,8 @@ for MODEL_NAME in "${MODELS[@]}"; do
         --endpoint "http://localhost:8000/v1" \
         --temperature 0.0
     
-    # The script created a folder in experiments/EXP_*_C2. Let's find it.
-    LATEST_C2=$(ls -td experiments/EXP_*_C2 | head -1)
+    # The script created a folder in ../experiments/EXP_*_C2. Let's find it.
+    LATEST_C2=$(ls -td ../experiments/EXP_*_C2 | head -1)
     
     # Append its jsonl to the master jsonl
     cat "$LATEST_C2/parsed/valid_responses.jsonl" >> "$MASTER_C2_DIR/parsed/valid_responses.jsonl" || true

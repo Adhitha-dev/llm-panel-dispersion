@@ -4,7 +4,7 @@ from typing import List
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    experiment_root: str = "experiments"
+    experiment_root: str = "../experiments"
     data_dir: str = "data"
     
     class Config:

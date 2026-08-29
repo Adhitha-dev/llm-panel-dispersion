@@ -3,7 +3,7 @@ set -e
 
 DATASET="data/processed/cases.json"
 MODEL_NAME="models/Meta-Llama-3-8B-Instruct"
-MASTER_C2_DIR="experiments/EXP_20260829_004952_C2_MASTER"
+MASTER_C2_DIR="../../experiments/EXP_20260829_004952_C2_MASTER"
 
 echo "Killing any lingering vLLM processes..."
 pkill -f vllm || true
@@ -32,7 +32,7 @@ python -m src.cli.main run-c2 "$DATASET" \
     --endpoint "http://localhost:8000/v1" \
     --temperature 0.0
 
-LATEST_C2=$(ls -td experiments/EXP_*_C2 | head -1)
+LATEST_C2=$(ls -td ../experiments/EXP_*_C2 | head -1)
 
 echo "Appending valid responses to master JSONL..."
 cat "$LATEST_C2/parsed/valid_responses.jsonl" >> "$MASTER_C2_DIR/parsed/valid_responses.jsonl" || true
