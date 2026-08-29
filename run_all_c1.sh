@@ -18,7 +18,7 @@ for MODEL_NAME in "${MODELS[@]}"; do
     
     # Ensure no vLLM instance is hanging
     pkill -f vllm || true
-    while nc -z localhost 8000; do sleep 1; done
+    sleep 15
 
     # Start vLLM with strict T4 memory and 8-bit quantization limits
     vllm serve "$MODEL_NAME" \
@@ -43,7 +43,7 @@ for MODEL_NAME in "${MODELS[@]}"; do
     echo "Killing vLLM for $MODEL_NAME..."
     kill $VLLM_PID
     pkill -f vllm || true
-    while nc -z localhost 8000; do sleep 1; done
+    sleep 15
     echo "Finished $MODEL_NAME!"
 done
 

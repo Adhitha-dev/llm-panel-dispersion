@@ -1,0 +1,4 @@
+model,models/Meta-Llama-3-8B-Instruct,models/Mistral-7B-Instruct-v0.3,models/Qwen2.5-7B-Instruct
+models/Meta-Llama-3-8B-Instruct,1.0,0.76,0.9
+models/Mistral-7B-Instruct-v0.3,0.76,1.0,0.74
+models/Qwen2.5-7B-Instruct,0.9,0.74,1.0

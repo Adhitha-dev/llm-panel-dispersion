@@ -1,0 +1,551 @@
+case_id,model,model_snapshot,provider,endpoint,condition,replicate_index,prompt_version_hash,temperature,timestamp,attempt_index,raw_response_text,parsed_score,parsed_verdict,parsed_confidence,parsed_rubric_market_potential,parsed_rubric_technical_feasibility,parsed_rubric_business_viability,parsed_reasoning,validity_flag
+CASE_KS_010,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:12.574276,1,"{
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea has potential for community building and sustainability, it lacks a clear business model and scalability, making it a niche project rather than a scalable business.""
+}",6,pass,80,3,5,2,"While the idea has potential for community building and sustainability, it lacks a clear business model and scalability, making it a niche project rather than a scalable business.",True
+CASE_KS_004,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:12.565499,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""IVIOU's unique combination of video and e-commerce has the potential to disrupt traditional online marketplaces, and its simplicity and user-friendliness make it an attractive investment opportunity.""
+}",7,invest,80,4,3,4,"IVIOU's unique combination of video and e-commerce has the potential to disrupt traditional online marketplaces, and its simplicity and user-friendliness make it an attractive investment opportunity.",True
+CASE_KS_009,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:12.573667,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 5,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea has significant market potential, as DUI deaths are a major public health concern. While there are some technical and business viability challenges, the concept is feasible and has a clear path to profitability.""
+}",8,invest,80,5,4,4,"The idea has significant market potential, as DUI deaths are a major public health concern. While there are some technical and business viability challenges, the concept is feasible and has a clear path to profitability.",True
+CASE_KS_001,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:11.868068,1,"{
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea has some appeal, it lacks a clear competitive advantage and scalability, making it difficult to justify investment. The focus on a single event series also limits the potential for long-term growth.""
+}",6,pass,80,3,5,2,"While the idea has some appeal, it lacks a clear competitive advantage and scalability, making it difficult to justify investment. The focus on a single event series also limits the potential for long-term growth.",True
+CASE_KS_002,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:12.563075,1,"{
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea has potential to create positive social impact, it may not be scalable or profitable enough to justify significant investment. The focus on a specific student group and limited scope may limit its growth potential.""
+}",6,pass,80,4,5,2,"While the idea has potential to create positive social impact, it may not be scalable or profitable enough to justify significant investment. The focus on a specific student group and limited scope may limit its growth potential.",True
+CASE_KS_008,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:12.572830,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""ValetSmartz addresses a specific pain point for urban professionals, and the on-demand model has proven successful in other industries. With careful execution, this app has the potential to disrupt the traditional valet parking industry.""
+}",7,invest,80,4,3,4,"ValetSmartz addresses a specific pain point for urban professionals, and the on-demand model has proven successful in other industries. With careful execution, this app has the potential to disrupt the traditional valet parking industry.",True
+CASE_KS_005,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:12.567713,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong potential in the growing market of curated video content, with a unique focus on non-fiction storytelling and art. While there are some technical and business viability challenges, I believe the team can overcome them with the right investment and guidance.""
+}",8,invest,80,4,4,3,"The idea has strong potential in the growing market of curated video content, with a unique focus on non-fiction storytelling and art. While there are some technical and business viability challenges, I believe the team can overcome them with the right investment and guidance.",True
+CASE_KS_006,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:12.570984,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""While the idea of a handmade word clock is unique and visually appealing, I believe it has the potential to resonate with a niche market. With careful execution, Like Clockwork could establish a strong brand and generate revenue through custom orders and limited-edition runs.""
+}",7,invest,80,4,3,4,"While the idea of a handmade word clock is unique and visually appealing, I believe it has the potential to resonate with a niche market. With careful execution, Like Clockwork could establish a strong brand and generate revenue through custom orders and limited-edition runs.",True
+CASE_KS_007,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:12.572024,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""While the idea is not revolutionary, it addresses a specific pain point in the fitness industry, and the data-driven insights could provide a unique selling proposition. With a solid technical foundation and a clear target market, I believe this app has the potential to gain traction.""
+}",7,invest,80,4,4,3,"While the idea is not revolutionary, it addresses a specific pain point in the fitness industry, and the data-driven insights could provide a unique selling proposition. With a solid technical foundation and a clear target market, I believe this app has the potential to gain traction.",True
+CASE_KS_003,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:12.564154,1,"{
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea is innovative and could spark interest in nuclear fusion, the market potential is limited due to the niche nature of the product and the high technical barriers to entry. The business viability is also uncertain, as it's unclear how to monetize this project.""
+}",6,pass,80,4,3,2,"While the idea is innovative and could spark interest in nuclear fusion, the market potential is limited due to the niche nature of the product and the high technical barriers to entry. The business viability is also uncertain, as it's unclear how to monetize this project.",True
+CASE_KS_012,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:59.915386,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has a strong emotional appeal, leveraging nostalgia and addressing a specific pain point for people with motor disabilities. With a clear technical path forward, the potential for a successful product is high.""
+}",8,invest,80,4,4,3,"The idea has a strong emotional appeal, leveraging nostalgia and addressing a specific pain point for people with motor disabilities. With a clear technical path forward, the potential for a successful product is high.",True
+CASE_KS_014,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:01.262085,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The idea has a clear market need and a unique value proposition, with potential to disrupt the traditional power bank and automotive accessory markets. However, technical feasibility and business viability will depend on the execution and competitive landscape.""
+}",7,invest,80,4,3,4,"The idea has a clear market need and a unique value proposition, with potential to disrupt the traditional power bank and automotive accessory markets. However, technical feasibility and business viability will depend on the execution and competitive landscape.",True
+CASE_KS_016,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:02.080443,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong potential in the music industry, leveraging the iPad's platform for innovative musical expression. While there's a risk of competition from established MIDI controllers, the unique customization aspect could differentiate this product.""
+}",8,invest,80,4,5,3,"The idea has strong potential in the music industry, leveraging the iPad's platform for innovative musical expression. While there's a risk of competition from established MIDI controllers, the unique customization aspect could differentiate this product.",True
+CASE_KS_013,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:01.260011,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""While the idea is not revolutionary, the gamification element and interactive experience could attract a loyal user base. With a clear understanding of the target market and a solid plan for monetization, TattooTree has the potential to become a successful niche player.""
+}",7,invest,80,4,3,4,"While the idea is not revolutionary, the gamification element and interactive experience could attract a loyal user base. With a clear understanding of the target market and a solid plan for monetization, TattooTree has the potential to become a successful niche player.",True
+CASE_KS_018,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:06.713303,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""While the idea is not revolutionary, it has the potential to create a unique and engaging social space for the school community. With proper execution, it could also generate revenue through sponsorships and events.""
+}",7,invest,80,4,3,4,"While the idea is not revolutionary, it has the potential to create a unique and engaging social space for the school community. With proper execution, it could also generate revenue through sponsorships and events.",True
+CASE_KS_011,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:12:57.775009,1,"{
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea of expanding a hackerspace has potential, the market potential is limited to a specific niche audience, and the technical feasibility is relatively low as it's more of a physical space expansion. The business viability is also uncertain, as it's unclear how the new space will be monetized.""
+}",6,pass,80,4,3,2,"While the idea of expanding a hackerspace has potential, the market potential is limited to a specific niche audience, and the technical feasibility is relatively low as it's more of a physical space expansion. The business viability is also uncertain, as it's unclear how the new space will be monetized.",True
+CASE_KS_015,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:01.644412,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""I'm investing in Noon Design Studio because the natural dye market has significant growth potential, and the team's innovative technology addresses a pressing need for sustainable and unique fabrics. With the right execution, this startup can capitalize on the growing demand for eco-friendly products.""
+}",8,invest,80,4,5,3,"I'm investing in Noon Design Studio because the natural dye market has significant growth potential, and the team's innovative technology addresses a pressing need for sustainable and unique fabrics. With the right execution, this startup can capitalize on the growing demand for eco-friendly products.",True
+CASE_KS_017,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:05.867811,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""While the idea is innovative and addresses a specific healthcare need, it requires further development to ensure technical feasibility and scalability. With a clear market need and potential for impact, I'm willing to take a calculated risk and invest.""
+}",7,invest,80,4,3,4,"While the idea is innovative and addresses a specific healthcare need, it requires further development to ensure technical feasibility and scalability. With a clear market need and potential for impact, I'm willing to take a calculated risk and invest.",True
+CASE_KS_019,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:07.176036,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""I'm investing because Pinz has the potential to disrupt traditional social media and messaging apps by providing a unique, location-based communication platform. With a clear value proposition and a relatively simple technical implementation, I believe Pinz can gain traction and scale.""
+}",8,invest,80,4,4,3,"I'm investing because Pinz has the potential to disrupt traditional social media and messaging apps by providing a unique, location-based communication platform. With a clear value proposition and a relatively simple technical implementation, I believe Pinz can gain traction and scale.",True
+CASE_KS_020,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:07.184634,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""I'm excited about the unique value proposition of velosynth, which has the potential to disrupt the cycling and music industries. While the market potential is uncertain, the technical feasibility is high, and the business viability is moderate, with opportunities for revenue through licensing and community engagement.""
+}",8,invest,80,4,5,3,"I'm excited about the unique value proposition of velosynth, which has the potential to disrupt the cycling and music industries. While the market potential is uncertain, the technical feasibility is high, and the business viability is moderate, with opportunities for revenue through licensing and community engagement.",True
+CASE_KS_023,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:49.792005,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea addresses a specific pain point in the automotive industry, and the technical feasibility seems reasonable. However, the business viability could be improved by targeting a specific market segment or developing a more comprehensive solution.""
+}",8,invest,80,4,4,3,"The idea addresses a specific pain point in the automotive industry, and the technical feasibility seems reasonable. However, the business viability could be improved by targeting a specific market segment or developing a more comprehensive solution.",True
+CASE_KS_021,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:46.348704,1,"{
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea of a fidget device with unique tactile feedback is intriguing, I'm concerned about the competitive landscape and the potential for the product to be easily replicated. The market potential is there, but the technical and business viability need further development.""
+}",6,pass,80,4,3,2,"While the idea of a fidget device with unique tactile feedback is intriguing, I'm concerned about the competitive landscape and the potential for the product to be easily replicated. The market potential is there, but the technical and business viability need further development.",True
+CASE_KS_025,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:53.237983,1,"{
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""While the idea has a unique technical solution, the market potential is limited to a specific niche and the business model is unclear, making it a pass for investment at this stage.""
+}",6,pass,80,4,5,3,"While the idea has a unique technical solution, the market potential is limited to a specific niche and the business model is unclear, making it a pass for investment at this stage.",True
+CASE_SYN_002,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:53.716976,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""MealMinder addresses a significant pain point in household food management, leveraging AI to provide actionable insights. With a clear value proposition and potential for scalability, I believe this idea has significant investment potential.""
+}",8,invest,80,4,4,4,"MealMinder addresses a significant pain point in household food management, leveraging AI to provide actionable insights. With a clear value proposition and potential for scalability, I believe this idea has significant investment potential.",True
+CASE_KS_022,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:49.370064,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""While the idea of live broadcasting and streaming on social media has potential, I believe the team has a solid understanding of the market and technical feasibility. With a clear path to monetization, I'm willing to take a calculated risk on this investment.""
+}",7,invest,80,4,3,4,"While the idea of live broadcasting and streaming on social media has potential, I believe the team has a solid understanding of the market and technical feasibility. With a clear path to monetization, I'm willing to take a calculated risk on this investment.",True
+CASE_SYN_001,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:53.240454,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""EcoCharge addresses a specific pain point for campers and travelers, and its unique design offers a competitive advantage. While the market size may be limited, the product's eco-friendly and portable nature could attract a loyal customer base.""
+}",8,invest,80,4,5,3,"EcoCharge addresses a specific pain point for campers and travelers, and its unique design offers a competitive advantage. While the market size may be limited, the product's eco-friendly and portable nature could attract a loyal customer base.",True
+CASE_KS_024,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:52.404459,1,"{
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea has a clear niche and potential for community engagement, the market potential is limited to a specific demographic and the business model is unclear. The technical feasibility is high, but the business viability is uncertain without a clear plan for revenue generation.""
+}",6,pass,80,3,4,2,"While the idea has a clear niche and potential for community engagement, the market potential is limited to a specific demographic and the business model is unclear. The technical feasibility is high, but the business viability is uncertain without a clear plan for revenue generation.",True
+CASE_SYN_003,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:54.894436,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""PedalPulse addresses a significant safety concern for urban cyclists, and the integrated turn signals and brake lights offer a unique value proposition. While there may be some technical and regulatory hurdles to overcome, the potential market size and growth opportunities are substantial.""
+}",8,invest,80,4,4,3,"PedalPulse addresses a significant safety concern for urban cyclists, and the integrated turn signals and brake lights offer a unique value proposition. While there may be some technical and regulatory hurdles to overcome, the potential market size and growth opportunities are substantial.",True
+CASE_SYN_004,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:13:58.325117,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""I'm investing in StudySync because it addresses a clear pain point in the education space, and its collaborative features have the potential to drive engagement and learning outcomes. However, I'd like to see more clarity on the target market and competitive landscape.""
+}",7,invest,80,4,4,3,"I'm investing in StudySync because it addresses a clear pain point in the education space, and its collaborative features have the potential to drive engagement and learning outcomes. However, I'd like to see more clarity on the target market and competitive landscape.",True
+CASE_SYN_005,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:00.889670,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential, as hikers and travelers are willing to pay a premium for safe drinking water. While there are some technical feasibility concerns, the UV-C LED technology is proven and the product's simplicity is an advantage.""
+}",8,invest,80,4,5,3,"The idea has strong market potential, as hikers and travelers are willing to pay a premium for safe drinking water. While there are some technical feasibility concerns, the UV-C LED technology is proven and the product's simplicity is an advantage.",True
+CASE_SYN_006,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:36.837578,1,"{
+  ""score"": 6,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the idea has some novelty and potential for entertainment value, I'm concerned about the market size and monetization strategy. The technical feasibility is promising, but the business viability is uncertain without a clear plan for revenue generation.""
+}",6,pass,80,4,3,2,"While the idea has some novelty and potential for entertainment value, I'm concerned about the market size and monetization strategy. The technical feasibility is promising, but the business viability is uncertain without a clear plan for revenue generation.",True
+CASE_SYN_008,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:38.141945,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""FitSwap has a clear and unique value proposition, addressing a common pain point in the fitness industry. With a well-designed peer-to-peer marketplace, it has the potential to disrupt the traditional gym class reservation model.""
+}",7,invest,80,4,3,4,"FitSwap has a clear and unique value proposition, addressing a common pain point in the fitness industry. With a well-designed peer-to-peer marketplace, it has the potential to disrupt the traditional gym class reservation model.",True
+CASE_SYN_007,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:37.280565,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""While the idea is not revolutionary, it addresses a specific pain point for plant enthusiasts and small-scale farmers, and the technical feasibility seems relatively straightforward. With some refinement, I believe GardenGuard has the potential to become a successful, niche product.""
+}",7,invest,80,4,4,3,"While the idea is not revolutionary, it addresses a specific pain point for plant enthusiasts and small-scale farmers, and the technical feasibility seems relatively straightforward. With some refinement, I believe GardenGuard has the potential to become a successful, niche product.",True
+CASE_SYN_012,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:43.610497,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""LocalLoop has a unique value proposition that addresses a specific pain point in local communities, and its technical feasibility seems reasonable. However, its business viability is uncertain, and further market research is needed to validate its potential.""
+}",8,invest,80,4,4,3,"LocalLoop has a unique value proposition that addresses a specific pain point in local communities, and its technical feasibility seems reasonable. However, its business viability is uncertain, and further market research is needed to validate its potential.",True
+CASE_SYN_009,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:40.329788,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""ModuDesk has a strong potential to disrupt the traditional office furniture market, with a unique modular design that can adapt to various workspace needs. While there are some technical and business viability concerns, I believe the team can overcome them with the right execution.""
+}",8,invest,80,4,4,3,"ModuDesk has a strong potential to disrupt the traditional office furniture market, with a unique modular design that can adapt to various workspace needs. While there are some technical and business viability concerns, I believe the team can overcome them with the right execution.",True
+CASE_SYN_010,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:40.332263,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential, as sleep technology is gaining traction, and the unique radar-based sleep tracking and ambient light simulation features could differentiate the product. However, the business viability score is lower due to the need for further market research and competitive analysis.""
+}",8,invest,80,4,5,3,"The idea has strong market potential, as sleep technology is gaining traction, and the unique radar-based sleep tracking and ambient light simulation features could differentiate the product. However, the business viability score is lower due to the need for further market research and competitive analysis.",True
+CASE_SYN_011,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:43.181383,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""CodeCanvas has the potential to disrupt the way kids learn programming, and its unique value proposition of bridging the gap between block-based and text-based coding is compelling. With the right execution, it can become a leading platform in the edtech space.""
+}",8,invest,80,4,5,3,"CodeCanvas has the potential to disrupt the way kids learn programming, and its unique value proposition of bridging the gap between block-based and text-based coding is compelling. With the right execution, it can become a leading platform in the edtech space.",True
+CASE_SYN_013,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:45.781031,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""ThermoMug addresses a common pain point for coffee lovers, and its precise temperature control technology has the potential to disrupt the beverage industry. While there are some technical and business viability concerns, I believe the idea has enough potential to warrant further exploration.""
+}",8,invest,80,4,5,3,"ThermoMug addresses a common pain point for coffee lovers, and its precise temperature control technology has the potential to disrupt the beverage industry. While there are some technical and business viability concerns, I believe the idea has enough potential to warrant further exploration.",True
+CASE_SYN_014,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:49.196544,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The AirPure Mask addresses a pressing need in the market, combining a reusable design with advanced air quality monitoring. While there are some existing solutions, the built-in sensor and filter replacement feature differentiate this product and offer a strong value proposition.""
+}",8,invest,80,4,5,3,"The AirPure Mask addresses a pressing need in the market, combining a reusable design with advanced air quality monitoring. While there are some existing solutions, the built-in sensor and filter replacement feature differentiate this product and offer a strong value proposition.",True
+CASE_SYN_015,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:14:50.915083,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""BookBuddy has a strong potential to improve children's reading skills and foster a love for reading. While there are some technical and business viability concerns, the idea's potential to make a positive impact on children's education outweighs these risks.""
+}",8,invest,80,4,4,3,"BookBuddy has a strong potential to improve children's reading skills and foster a love for reading. While there are some technical and business viability concerns, the idea's potential to make a positive impact on children's education outweighs these risks.",True
+CASE_SYN_020,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:31.608657,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""RecipeRadar addresses a common pain point for many consumers, and its unique features, such as auto-generated shopping lists, have the potential to drive user engagement and retention.""
+}",8,invest,80,4,4,4,"RecipeRadar addresses a common pain point for many consumers, and its unique features, such as auto-generated shopping lists, have the potential to drive user engagement and retention.",True
+CASE_SYN_017,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:26.014576,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""I'm investing in FlexiFrame because it addresses a common pain point in the photo display market, and the technical feasibility seems high. However, I'm less confident in the business viability, as the market size and competition are unclear.""
+}",7,invest,80,4,5,3,"I'm investing in FlexiFrame because it addresses a common pain point in the photo display market, and the technical feasibility seems high. However, I'm less confident in the business viability, as the market size and competition are unclear.",True
+CASE_SYN_016,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:25.587031,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 5,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""ParkEasy addresses a common pain point for urban drivers, and its predictive algorithm has the potential to significantly improve the parking experience. With a solid business model and a clear path to monetization, I'm willing to take a calculated risk on this idea.""
+}",8,invest,80,5,4,4,"ParkEasy addresses a common pain point for urban drivers, and its predictive algorithm has the potential to significantly improve the parking experience. With a solid business model and a clear path to monetization, I'm willing to take a calculated risk on this idea.",True
+CASE_SYN_018,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:27.761162,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""I'm investing because VoiceVault addresses a significant pain point in password management, leveraging a unique voice biometrics authentication method. While there's still work to be done to refine the business model, the technical feasibility is high, and the market potential is substantial.""
+}",8,invest,80,4,5,3,"I'm investing because VoiceVault addresses a significant pain point in password management, leveraging a unique voice biometrics authentication method. While there's still work to be done to refine the business model, the technical feasibility is high, and the market potential is substantial.",True
+CASE_SYN_019,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:31.606014,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""I'm investing in CycleSafe because the idea addresses a real pain point for cyclists, and the technical feasibility seems high. However, I'm less confident in the business viability, as the market size and competitive landscape are unclear.""
+}",8,invest,80,4,5,3,"I'm investing in CycleSafe because the idea addresses a real pain point for cyclists, and the technical feasibility seems high. However, I'm less confident in the business viability, as the market size and competitive landscape are unclear.",True
+CASE_SYN_022,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:34.493564,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""While the idea is not revolutionary, it addresses a common problem and has a clear value proposition. With a well-designed app and marketing strategy, PosturePro has the potential to attract a loyal user base and generate revenue.""
+}",7,invest,80,4,3,4,"While the idea is not revolutionary, it addresses a common problem and has a clear value proposition. With a well-designed app and marketing strategy, PosturePro has the potential to attract a loyal user base and generate revenue.",True
+CASE_SYN_025,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:41.342418,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""TaskTally's gamified approach to task management has the potential to engage users and drive adoption. With a clear path to monetization through partner rewards, the business model appears viable.""
+}",8,invest,80,4,4,4,"TaskTally's gamified approach to task management has the potential to engage users and drive adoption. With a clear path to monetization through partner rewards, the business model appears viable.",True
+CASE_SYN_021,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:32.022132,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""I'm investing in LumiLantern because it addresses a specific pain point for campers and outdoor enthusiasts, and its unique features like wireless charging and SOS beacon provide a competitive edge. With a solid technical foundation and a clear target market, I believe this startup has the potential for growth.""
+}",8,invest,80,4,5,3,"I'm investing in LumiLantern because it addresses a specific pain point for campers and outdoor enthusiasts, and its unique features like wireless charging and SOS beacon provide a competitive edge. With a solid technical foundation and a clear target market, I believe this startup has the potential for growth.",True
+CASE_SYN_023,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:37.060035,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 3,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""I'm investing in ArtisanBox because it combines the growing demand for subscription boxes with the unique value proposition of showcasing local artisans. The video tutorials and artist stories add an educational and emotional layer to the experience, making it a compelling offering.""
+}",7,invest,80,4,3,4,"I'm investing in ArtisanBox because it combines the growing demand for subscription boxes with the unique value proposition of showcasing local artisans. The video tutorials and artist stories add an educational and emotional layer to the experience, making it a compelling offering.",True
+CASE_SYN_024,models/Meta-Llama-3-8B-Instruct,models/Meta-Llama-3-8B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T01:15:39.210739,1,"{
+  ""score"": 8,
+  ""verdict"": ""invest"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""I'm investing in NoiseNest because it addresses a common problem (noise disturbance) with a unique solution (adaptive soundscapes). While the market potential is significant, I'm less confident in the business viability due to the competitive white noise machine market.""
+}",8,invest,80,4,5,3,"I'm investing in NoiseNest because it addresses a common problem (noise disturbance) with a unique solution (adaptive soundscapes). While the market potential is significant, I'm less confident in the business viability due to the competitive white noise machine market.",True

@@ -1,0 +1,551 @@
+case_id,model,model_snapshot,provider,endpoint,condition,replicate_index,prompt_version_hash,temperature,timestamp,attempt_index,raw_response_text,parsed_score,parsed_verdict,parsed_confidence,parsed_rubric_market_potential,parsed_rubric_technical_feasibility,parsed_rubric_business_viability,parsed_reasoning,validity_flag
+CASE_KS_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.275413,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The event has limited market potential and business viability but is technically feasible.""
+}",4,pass,70,3,5,2,The event has limited market potential and business viability but is technically feasible.,True
+CASE_KS_006,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.871929,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Unique product with aesthetic appeal, but market size and production scale are uncertain.""
+}",7,invest,85,4,5,4,"Unique product with aesthetic appeal, but market size and production scale are uncertain.",True
+CASE_KS_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.863584,1,"{
+  ""score"": 2,
+  ""verdict"": ""pass"",
+  ""confidence"": 80,
+  ""rubric_scores"": {
+    ""market_potential"": 1,
+    ""technical_feasibility"": 2,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept is novel but impractical and lacks clear market appeal or business model.""
+}",2,pass,80,1,2,1,The concept is novel but impractical and lacks clear market appeal or business model.,True
+CASE_KS_009,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.875948,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Significant social benefit but market saturation and competition high. Technical execution feasible with existing tech.""
+}",7,invest,85,4,5,4,Significant social benefit but market saturation and competition high. Technical execution feasible with existing tech.,True
+CASE_KS_010,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.876719,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the concept is unique and promotes sustainability, the business model lacks clear revenue streams and scalability.""
+}",4,pass,70,3,5,2,"While the concept is unique and promotes sustainability, the business model lacks clear revenue streams and scalability.",True
+CASE_KS_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.862347,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.""
+}",7,invest,85,4,5,3,The idea has strong market potential among CUNY students but lacks clear business model and revenue streams.,True
+CASE_KS_007,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.872815,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The app addresses a clear need and has good technical feasibility, but market potential and business viability could be stronger.""
+}",7,invest,85,4,5,4,"The app addresses a clear need and has good technical feasibility, but market potential and business viability could be stronger.",True
+CASE_KS_008,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.875166,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong market need in NYC; technical execution feasible but competition high. Good business model but revenue streams need exploration.""
+}",7,invest,85,4,5,4,Strong market need in NYC; technical execution feasible but competition high. Good business model but revenue streams need exploration.,True
+CASE_KS_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.865820,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.""
+}",7,invest,85,4,5,4,"The concept has significant market potential and technical feasibility, but business viability needs more clarity on monetization and user engagement.",True
+CASE_KS_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:53:33.867028,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has strong market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_KS_015,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:15.018430,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong market potential in sustainable fashion, but business viability and technical feasibility need further validation.""
+}",7,invest,85,4,5,4,"Strong market potential in sustainable fashion, but business viability and technical feasibility need further validation.",True
+CASE_KS_011,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:11.846262,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Expanding a popular hackerspace has strong market potential and technical feasibility, though business viability needs more detail on revenue models.""
+}",7,invest,85,4,5,4,"Expanding a popular hackerspace has strong market potential and technical feasibility, though business viability needs more detail on revenue models.",True
+CASE_KS_013,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:13.278488,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept is unique and could attract a niche market of tattoo enthusiasts. Technical implementation and business model need refinement.""
+}",7,invest,85,4,5,4,The concept is unique and could attract a niche market of tattoo enthusiasts. Technical implementation and business model need refinement.,True
+CASE_KS_014,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:14.339576,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The concept has significant market appeal but faces competition. Technical integration is feasible, but business model needs refinement.""
+}",7,invest,85,4,4,3,"The concept has significant market appeal but faces competition. Technical integration is feasible, but business model needs refinement.",True
+CASE_KS_012,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:12.598552,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong concept with niche appeal and potential for innovation. Technical feasibility is solid, but market and business viability need more research.""
+}",7,invest,85,4,5,4,"Strong concept with niche appeal and potential for innovation. Technical feasibility is solid, but market and business viability need more research.",True
+CASE_KS_019,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:17.413000,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The concept has potential for niche market but requires significant user adoption and clear business model.""
+}",7,invest,85,4,5,3,The concept has potential for niche market but requires significant user adoption and clear business model.,True
+CASE_KS_018,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:16.747161,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The concept has strong market appeal and unique design, but business model and revenue streams need clarification.""
+}",7,invest,85,4,5,3,"The concept has strong market appeal and unique design, but business model and revenue streams need clarification.",True
+CASE_KS_020,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:19.192911,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""Innovative concept with artistic appeal, but market size and business model need refinement.""
+}",7,invest,85,4,5,3,"Innovative concept with artistic appeal, but market size and business model need refinement.",True
+CASE_KS_016,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:15.400546,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has strong market potential in the growing market of digital music creation. Technical feasibility is high given existing iOS development tools. Business viability needs more exploration.""
+}",7,invest,85,4,5,3,The idea has strong market potential in the growing market of digital music creation. Technical feasibility is high given existing iOS development tools. Business viability needs more exploration.,True
+CASE_KS_017,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:16.743286,1,"{
+  ""score"": 3,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 2,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 1
+  },
+  ""reasoning"": ""The concept has limited market potential due to the niche user base. Technical feasibility is moderate, but business viability is low given the free model and lack of clear monetization strategy.""
+}",3,pass,70,2,4,1,"The concept has limited market potential due to the niche user base. Technical feasibility is moderate, but business viability is low given the free model and lack of clear monetization strategy.",True
+CASE_KS_025,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:52.838854,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""The tool has existing patent protection but limited market appeal and business model clarity.""
+}",4,pass,70,3,5,2,The tool has existing patent protection but limited market appeal and business model clarity.,True
+CASE_KS_021,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:51.376432,1,"{
+  ""score"": 4,
+  ""verdict"": ""pass"",
+  ""confidence"": 70,
+  ""rubric_scores"": {
+    ""market_potential"": 3,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 2
+  },
+  ""reasoning"": ""While the concept has some appeal, market potential and business viability are uncertain due to competition and scalability issues.""
+}",4,pass,70,3,4,2,"While the concept has some appeal, market potential and business viability are uncertain due to competition and scalability issues.",True
+CASE_KS_024,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:52.836843,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The event has cultural appeal but market potential and business model need clearer definition. Technical execution seems feasible.""
+}",7,invest,85,4,5,4,The event has cultural appeal but market potential and business model need clearer definition. Technical execution seems feasible.,True
+CASE_SYN_001,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:53.277010,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Good market fit for outdoor enthusiasts. Technical aspects are feasible but need further validation. Business model needs refinement.""
+}",7,invest,85,4,5,4,Good market fit for outdoor enthusiasts. Technical aspects are feasible but need further validation. Business model needs refinement.,True
+CASE_KS_022,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:51.773549,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 4,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The concept has significant market potential but business viability and technical feasibility need more detail. Investing could be considered with further research.""
+}",7,invest,85,4,4,3,The concept has significant market potential but business viability and technical feasibility need more detail. Investing could be considered with further research.,True
+CASE_KS_023,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:52.155849,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The product addresses a common safety issue and has potential market demand. Technical execution seems feasible, but business model needs refinement.""
+}",7,invest,85,4,5,3,"The product addresses a common safety issue and has potential market demand. Technical execution seems feasible, but business model needs refinement.",True
+CASE_SYN_002,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:53.708006,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong market need for reducing food waste; technical execution feasible with AI; viable business model targeting eco-conscious consumers.""
+}",7,invest,85,4,5,4,Strong market need for reducing food waste; technical execution feasible with AI; viable business model targeting eco-conscious consumers.,True
+CASE_SYN_003,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:55.140034,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The product addresses a clear need and has potential for adoption among cyclists. Technical execution seems feasible but business model needs refinement.""
+}",7,invest,85,4,5,3,The product addresses a clear need and has potential for adoption among cyclists. Technical execution seems feasible but business model needs refinement.,True
+CASE_SYN_004,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:54:58.390813,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""Strong market need for collaborative study tools, but business model and revenue streams require further exploration.""
+}",7,invest,85,4,5,3,"Strong market need for collaborative study tools, but business model and revenue streams require further exploration.",True
+CASE_SYN_005,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:00.799136,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""Strong market need for safe water purification, but business model and scalability require further exploration.""
+}",7,invest,85,4,5,3,"Strong market need for safe water purification, but business model and scalability require further exploration.",True
+CASE_SYN_006,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:27.876370,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""High market potential for pet owners but business viability needs more exploration. Technical feasibility seems strong.""
+}",7,invest,85,4,5,3,High market potential for pet owners but business viability needs more exploration. Technical feasibility seems strong.,True
+CASE_SYN_012,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:31.562683,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong community-building concept with local demand. Technical execution and business model need refinement but show promise.""
+}",7,invest,85,4,5,4,Strong community-building concept with local demand. Technical execution and business model need refinement but show promise.,True
+CASE_SYN_010,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:30.743158,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The product addresses a common need and has innovative technology, but market adoption and business model require further refinement.""
+}",7,invest,85,4,5,3,"The product addresses a common need and has innovative technology, but market adoption and business model require further refinement.",True
+CASE_SYN_008,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:29.903713,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has good market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.""
+}",7,invest,85,4,5,4,"The concept has good market potential and business viability, but technical feasibility could be improved. Investing could help refine and scale the platform.",True
+CASE_SYN_007,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:29.120592,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The idea has good market potential for gardening enthusiasts and businesses. Technical execution is feasible with existing IoT technology. Business model needs clearer monetization strategy.""
+}",7,invest,85,4,5,3,The idea has good market potential for gardening enthusiasts and businesses. Technical execution is feasible with existing IoT technology. Business model needs clearer monetization strategy.,True
+CASE_SYN_014,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:34.323532,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong market need during pandemics and pollution concerns. Technical execution feasible but business model requires validation.""
+}",7,invest,85,4,5,4,Strong market need during pandemics and pollution concerns. Technical execution feasible but business model requires validation.,True
+CASE_SYN_011,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:31.173381,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong market need for accessible coding education tools, but competition is high. Technical execution seems feasible with existing tech. Business model needs refinement.""
+}",7,invest,85,4,5,4,"Strong market need for accessible coding education tools, but competition is high. Technical execution seems feasible with existing tech. Business model needs refinement.",True
+CASE_SYN_015,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:36.393403,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The concept has potential appeal but market size and business model need refinement. Technical execution seems feasible.""
+}",7,invest,85,4,5,3,The concept has potential appeal but market size and business model need refinement. Technical execution seems feasible.,True
+CASE_SYN_009,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:30.741609,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The modular design addresses a growing need for flexible workspaces and could appeal to tech-savvy users. Technical execution seems feasible but business viability depends on market adoption.""
+}",7,invest,85,4,5,4,The modular design addresses a growing need for flexible workspaces and could appeal to tech-savvy users. Technical execution seems feasible but business viability depends on market adoption.,True
+CASE_SYN_013,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:55:33.529045,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The product addresses a niche but growing market for precision temperature control mugs. Technical execution seems feasible with modern battery and heating technology. Business viability depends on pricing and competition.""
+}",7,invest,85,4,5,4,The product addresses a niche but growing market for precision temperature control mugs. Technical execution seems feasible with modern battery and heating technology. Business viability depends on pricing and competition.,True
+CASE_SYN_016,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:03.875690,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Good market need in urban areas; technical execution relies on accurate data collection and analysis.""
+}",7,invest,85,4,5,4,Good market need in urban areas; technical execution relies on accurate data collection and analysis.,True
+CASE_SYN_018,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:07.901493,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""High market potential due to growing security concerns. Technical feasible but business viability needs more exploration.""
+}",7,invest,85,4,5,3,High market potential due to growing security concerns. Technical feasible but business viability needs more exploration.,True
+CASE_SYN_017,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:07.899051,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Innovative solution for photo storage and display, but market size and business model need clearer definition.""
+}",7,invest,85,4,5,4,"Innovative solution for photo storage and display, but market size and business model need clearer definition.",True
+CASE_SYN_019,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:09.403000,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong market need for secure and trackable bike locks. Technical execution seems feasible but business model needs refinement.""
+}",7,invest,85,4,5,4,Strong market need for secure and trackable bike locks. Technical execution seems feasible but business model needs refinement.,True
+CASE_SYN_022,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:11.064474,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Good market potential in health and wellness tech. Technical feasible but business viability needs more analysis.""
+}",7,invest,85,4,5,4,Good market potential in health and wellness tech. Technical feasible but business viability needs more analysis.,True
+CASE_SYN_020,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:09.786023,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Strong market need for personalized meal planning; technical execution feasible with AI and APIs; viable business model through subscriptions.""
+}",7,invest,85,4,5,4,Strong market need for personalized meal planning; technical execution feasible with AI and APIs; viable business model through subscriptions.,True
+CASE_SYN_023,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:12.718078,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""Unique concept with potential for local artisan support, but market size and subscription model need further analysis.""
+}",7,invest,85,4,5,4,"Unique concept with potential for local artisan support, but market size and subscription model need further analysis.",True
+CASE_SYN_021,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:10.617014,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The product addresses a niche but growing market for outdoor enthusiasts and has a unique feature set. Technical execution seems feasible, but business model needs refinement.""
+}",7,invest,85,4,5,4,"The product addresses a niche but growing market for outdoor enthusiasts and has a unique feature set. Technical execution seems feasible, but business model needs refinement.",True
+CASE_SYN_025,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:15.972519,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 4
+  },
+  ""reasoning"": ""The concept has potential appeal but market saturation and reward sourcing could be challenges. Technical execution seems feasible.""
+}",7,invest,85,4,5,4,The concept has potential appeal but market saturation and reward sourcing could be challenges. Technical execution seems feasible.,True
+CASE_SYN_024,models/Qwen2.5-7B-Instruct,models/Qwen2.5-7B-Instruct,vllm,http://localhost:8000/v1,C2,1,3bb65d16,0.0,2026-08-29T00:56:13.117037,1,"{
+  ""score"": 7,
+  ""verdict"": ""invest"",
+  ""confidence"": 85,
+  ""rubric_scores"": {
+    ""market_potential"": 4,
+    ""technical_feasibility"": 5,
+    ""business_viability"": 3
+  },
+  ""reasoning"": ""The product addresses a niche but growing market for sleep aids and relaxation tools. Technical execution seems feasible with modern audio processing technology. Business model needs refinement.""
+}",7,invest,85,4,5,3,The product addresses a niche but growing market for sleep aids and relaxation tools. Technical execution seems feasible with modern audio processing technology. Business model needs refinement.,True

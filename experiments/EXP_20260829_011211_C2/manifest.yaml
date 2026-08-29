@@ -1,0 +1,11 @@
+condition: C2
+dataset_path: data/processed/cases.json
+models:
+- endpoint: http://localhost:8000/v1
+  name: models/Meta-Llama-3-8B-Instruct
+  provider: vllm
+  snapshot: models/Meta-Llama-3-8B-Instruct
+prompt_hash: 3bb65d16
+replicates: 1
+temperature: 0.0
+timestamp: '2026-08-29T01:12:11.587277'

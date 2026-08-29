@@ -107,11 +107,11 @@ def run_c1(
 @app.command()
 def run_c2(
     dataset_path: str,
-    models: List[str],
-    snapshots: List[str],
-    providers: List[str],
-    endpoints: List[str],
-    temperature: float = 0.0
+    models: List[str] = typer.Option(..., "--model"),
+    snapshots: List[str] = typer.Option(..., "--snapshot"),
+    providers: List[str] = typer.Option(..., "--provider"),
+    endpoints: List[str] = typer.Option(..., "--endpoint"),
+    temperature: float = typer.Option(0.0, "--temperature")
 ):
     cases = load_cases(dataset_path)
     exp_dir, logger, prompt_hash = setup_experiment("C2")

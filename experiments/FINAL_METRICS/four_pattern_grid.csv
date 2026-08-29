@@ -1,0 +1,51 @@
+case_id,score_sd,score_mpad,pattern
+CASE_KS_001,0.0,1.3333333333333333,"Distinct, stable model dispositions dominate"
+CASE_KS_002,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_003,0.0,2.6666666666666665,"Distinct, stable model dispositions dominate"
+CASE_KS_004,0.0,0.0,Stable task; judges converge
+CASE_KS_005,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_006,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_007,0.0,0.0,Stable task; judges converge
+CASE_KS_008,0.0,0.0,Stable task; judges converge
+CASE_KS_009,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_010,0.0,1.3333333333333333,"Distinct, stable model dispositions dominate"
+CASE_KS_011,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_012,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_013,0.15811388300841897,0.6666666666666666,"Individually unstable, but average behavior converges"
+CASE_KS_014,0.0,0.0,Stable task; judges converge
+CASE_KS_015,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_016,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_017,0.0,2.6666666666666665,"Distinct, stable model dispositions dominate"
+CASE_KS_018,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_019,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_020,0.0,1.3333333333333333,"Distinct, stable model dispositions dominate"
+CASE_KS_021,0.0,1.3333333333333333,"Distinct, stable model dispositions dominate"
+CASE_KS_022,0.0,0.0,Stable task; judges converge
+CASE_KS_023,0.0,1.3333333333333333,"Distinct, stable model dispositions dominate"
+CASE_KS_024,0.0,0.6666666666666666,Stable task; judges converge
+CASE_KS_025,0.0,1.3333333333333333,"Distinct, stable model dispositions dominate"
+CASE_SYN_001,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_002,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_003,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_004,0.0,0.0,Stable task; judges converge
+CASE_SYN_005,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_006,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_007,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_008,0.0,0.0,Stable task; judges converge
+CASE_SYN_009,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_010,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_011,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_012,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_013,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_014,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_015,0.0,1.3333333333333333,"Distinct, stable model dispositions dominate"
+CASE_SYN_016,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_017,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_018,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_019,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_020,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_021,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_022,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_023,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_024,0.0,0.6666666666666666,Stable task; judges converge
+CASE_SYN_025,0.0,1.3333333333333333,"Distinct, stable model dispositions dominate"
