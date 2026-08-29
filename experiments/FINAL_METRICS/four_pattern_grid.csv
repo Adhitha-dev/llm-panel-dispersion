@@ -11,7 +11,7 @@ CASE_KS_009,0.0,0.6666666666666666,Stable task; judges converge
 CASE_KS_010,0.0,1.3333333333333333,"Distinct, stable model dispositions dominate"
 CASE_KS_011,0.0,0.6666666666666666,Stable task; judges converge
 CASE_KS_012,0.0,0.6666666666666666,Stable task; judges converge
-CASE_KS_013,0.15811388300841897,0.6666666666666666,"Individually unstable, but average behavior converges"
+CASE_KS_013,0.10540925533894598,0.6666666666666666,"Individually unstable, but average behavior converges"
 CASE_KS_014,0.0,0.0,Stable task; judges converge
 CASE_KS_015,0.0,0.6666666666666666,Stable task; judges converge
 CASE_KS_016,0.0,0.6666666666666666,Stable task; judges converge
